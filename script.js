@@ -380,57 +380,57 @@ let questions = [
 },
 {
   numb: 16,
-  question: "What does XML stand for?",
-  answer: "eXtensible Markup Language",
+  question: "He has lived in Bangkok ________ a long time.",
+  answer: "for",
   options: [
-    "eXtensible Markup Language",
-    "eXecutable Multiple Language",
-    "eXTra Multi-Program Language",
-    "eXamine Multiple Language"
+    "since",
+    "before",
+    "for",
+    "after"
   ]
 },
 {
   numb: 17,
-  question: "What does XML stand for?",
-  answer: "eXtensible Markup Language",
+  question: "How long is it ________ you got married?",
+  answer: "since",
   options: [
-    "eXtensible Markup Language",
-    "eXecutable Multiple Language",
-    "eXTra Multi-Program Language",
-    "eXamine Multiple Language"
+    "since",
+    "before",
+    "for",
+    "after"
   ]
 },
 {
   numb: 18,
-  question: "What does XML stand for?",
-  answer: "eXtensible Markup Language",
+  question: "Harry Potter _______ (go) to Hogwarts School. He has two close friends, Ron Weasley and Hermione Granger",
+  answer: "goes",
   options: [
-    "eXtensible Markup Language",
-    "eXecutable Multiple Language",
-    "eXTra Multi-Program Language",
-    "eXamine Multiple Language"
+    "went",
+    "goes",
+    "has gone",
+    "there is no correct answer"
   ]
 },
 {
   numb: 19,
-  question: "What does XML stand for?",
-  answer: "eXtensible Markup Language",
+  question: "Harry Potter is a pupil at Hogwarts school. One day when he ________ (play) Quidditch he sees a strange object in the sky.",
+  answer: "is playing",
   options: [
-    "eXtensible Markup Language",
-    "eXecutable Multiple Language",
-    "eXTra Multi-Program Language",
-    "eXamine Multiple Language"
+    "plays",
+    "was playing",
+    "has played",
+    "is playing"
   ]
 },
 {
   numb: 20,
-  question: "What does XML stand for?",
-  answer: "eXtensible Markup Language",
+  question: "Marry and Kelly _________ feeling very well today. Can they go home?",
+  answer: "are not",
   options: [
-    "eXtensible Markup Language",
-    "eXecutable Multiple Language",
-    "eXTra Multi-Program Language",
-    "eXamine Multiple Language"
+    "are not",
+    "don't",
+    "haven't",
+    "there is no correct answer"
   ]
 },
 ];
