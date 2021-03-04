@@ -215,68 +215,68 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "Have you ________ a lot, Nora?",
-  answer: "travelled",
+  question: "I _______ (play) the piano , but I _______ (not/play) very well.",
+  answer: "play / don't play",
   options: [
-    "been traveling",
-    "travel",
-    "travelled",
-    "traveling"
+    "played / didn't play",
+    "was play / am not play",
+    "play / don't play",
+    "am playing / am not playing"
   ]
 },
   {
   numb: 2,
-  question: "I haven't told them about the accident yet.",
-  answer: "Present perfect",
+  question: "Hurry up! The bus _____ (come). I _____ (not / want) to miss it.",
+  answer: "coming / don't want",
   options: [
-    "Present Simple",
-    "Present Continuous",
-    "Present perfect contunuous",
-    "Present perfect"
+    "comes / don't want",
+    "coming / don't want",
+    "comed / didn't want",
+    "coming / am not want"
   ]
 },
   {
   numb: 3,
-  question: "[Tarjima qiling!] I am going to travel",
-  answer: "Men sayohat qilmoqchiman",
+  question: "Tom gave me a letter to post. I _____ forget to post it.",
+  answer: "mustn't",
   options: [
-    "Men sayohatga ketmoqchiman",
-    "Men sayohat qilmoqchiman",
-    "Men sayohatga ketayabman",
-    "Men sayohat qilayabman"
+    "must",
+    "need",
+    "needn't",
+    "mustn't"
   ]
 },
   {
   numb: 4,
-  question: "(he / play / tennis since he was 11)",
-  answer: "He has been playing tennis since he was 11",
+  question: "_____ would you like , tea or coffee?    Tea, please.",
+  answer: "What",
   options: [
-    "He has play tennis since he was 11",
-    "He had play tennis since he was 11",
-    "He has been playing tennis since he was 11",
-    "He plays tennis since he was 11"
+    "They",
+    "Why",
+    "What",
+    "I"
   ]
 },
   {
   numb: 5,
-  question: "Look! Somebody ________ (break) that window.",
-  answer: "has broken",
+  question: "I wonder why Tom isn't at work today. I suppose he must ______ ill.",
+  answer: "be",
   options: [
-    "broke",
-    "is breaking",
-    "has broken",
-    "was breaking"
+    "be",
+    "go",
+    "get",
+    "take"
   ]
 },
 {
   numb: 6,
-  question: "How long ________ (George/be) in USA.",
-  answer: "How long has George been in USA.",
+  question: "I am sure. Tom ______ (get) the job. He has a lot of experience.",
+  answer: "will get",
   options: [
-    "How long had George been in USA.",
-    "How long do George is in USA.",
-    "How long are George was in USA.",
-    "How long has George been in USA."
+    "gets",
+    "got",
+    "is getting",
+    "will get"
   ]
 },
 {
@@ -292,35 +292,35 @@ let questions = [
 },
 {
   numb: 8,
-  question: "How long are you staying in Andijan?",
-  answer: "since January",
+  question: "Before you _____ (leave), don't forget to shut the windows.",
+  answer: "leave",
   options: [
-    "for January",
-    "after January",
-    "in January",
-    "since January"
+    "leave",
+    "will leave",
+    "leaving",
+    "leaved"
   ]
 },
 {
   numb: 9,
-  question: "I ________ (get up) at 8 o'clock every morning.",
-  answer: "get up",
+  question: "I am going to Paris next week. _____ I'll be there, I hope to visit a friend of mine.",
+  answer: "When",
   options: [
-    "will getting up",
-    "am getting up",
-    "get up",
-    "got up"
+    "When",
+    "If",
+    "Why",
+    "Where"
   ]
 },
 {
   numb: 10,
-  question: "Look, That man ________ (try) top open the door of your car.",
-  answer: "is trying",
+  question: "What colour _____ (you / paint) it.",
+  answer: "are you going to paint",
   options: [
-    "is trying",
-    "try",
-    "tried",
-    "is tried"
+    "do you paint",
+    "are you going to paint",
+    "are you painting",
+    "will you paint"
   ]
 },
 {
@@ -347,24 +347,24 @@ let questions = [
 },
 {
   numb: 13,
-  question: "You don't understand because you ________ listening to me!",
-  answer: "aren't",
+  question: "I ______ (learn) English for a long time.",
+  answer: "have been learning",
   options: [
-    "don't",
-    "didn't",
-    "haven't",
-    "aren't"
+    "was learning",
+    "have been learn",
+    "have been learning",
+    "am learning"
   ]
 },
 {
   numb: 14,
-  question: "(you / What time / start / do / work)",
-  answer: "What time do you start work?",
+  question: "I need a stamp for this letter. _____ (you / got) any?",
+  answer: "Have you got",
   options: [
-    "What time do you start work?",
-    "What time you do start work?",
-    "What time do you work start?",
-    "What time start do you work?"
+    "Did you got",
+    "Are you got",
+    "Have you got",
+    "Would you got"
   ]
 },
 {
@@ -380,56 +380,56 @@ let questions = [
 },
 {
   numb: 16,
-  question: "He has lived in Bangkok ________ a long time.",
-  answer: "for",
+  question: "Did you ____ a car when you lived in London?",
+  answer: "have",
   options: [
-    "since",
-    "before",
-    "for",
-    "after"
+    "was",
+    "had",
+    "has",
+    "have"
   ]
 },
 {
   numb: 17,
-  question: "How long is it ________ you got married?",
-  answer: "since",
+  question: "Present Continious(she may / go / to the theatre)",
+  answer: "she may be going to the theatre",
   options: [
-    "since",
-    "before",
-    "for",
-    "after"
+    "she may be goes to the theatre",
+    "she may be going to the theatre",
+    "she may be went to the theatre",
+    "she may be go to the theatre"
   ]
 },
 {
   numb: 18,
-  question: "Harry Potter _______ (go) to Hogwarts School. He has two close friends, Ron Weasley and Hermione Granger",
-  answer: "goes",
+  question: "_____  (I / take) your umbrella?   -  'Yes, it's raining out.'",
+  answer: "Can",
   options: [
-    "went",
-    "goes",
-    "has gone",
-    "there is no correct answer"
+    "Do",
+    "Why",
+    "Need",
+    "Can"
   ]
 },
 {
   numb: 19,
-  question: "Harry Potter is a pupil at Hogwarts school. One day when he ________ (play) Quidditch he sees a strange object in the sky.",
-  answer: "is playing",
+  question: "I _____ (need to / go), so I didn't go!",
+  answer: "didn't need to go",
   options: [
-    "plays",
-    "was playing",
-    "has played",
-    "is playing"
+    "need to go",
+    "didn't need to go",
+    "am needn't going",
+    "am need to going"
   ]
 },
 {
   numb: 20,
-  question: "Marry and Kelly _________ feeling very well today. Can they go home?",
-  answer: "are not",
+  question: "When you play tennis, you ______ (watch) the ball.",
+  answer: "should watch",
   options: [
-    "are not",
-    "don't",
-    "haven't",
+    "should watch",
+    "don't watch",
+    "watch",
     "there is no correct answer"
   ]
 },
