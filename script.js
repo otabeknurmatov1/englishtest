@@ -215,222 +215,167 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "I _______ (play) the piano , but I _______ (not/play) very well.",
-  answer: "play / don't play",
+  question: "Nima uchun bu yerga kelayabsan?",
+  answer: "Why are you coming to here?",
   options: [
-    "played / didn't play",
-    "was play / am not play",
-    "play / don't play",
-    "am playing / am not playing"
+    "What are you going to there?",
+    "Why are you coming to here?",
+    "When do you go to there?",
+    "How do you come to here?"
   ]
 },
   {
   numb: 2,
-  question: "Hurry up! The bus _____ (come). I _____ (not / want) to miss it.",
-  answer: "coming / don't want",
+  question: "Men Turkiyaga boraman [Future]",
+  answer: "I will go to Turkey",
   options: [
-    "comes / don't want",
-    "coming / don't want",
-    "comed / didn't want",
-    "coming / am not want"
+    "I am going in Turkey",
+    "I went in Turkey",
+    "I go to Turkey",
+    "I will go to Turkey"
   ]
 },
   {
   numb: 3,
-  question: "Tom gave me a letter to post. I _____ forget to post it.",
-  answer: "mustn't",
+  question: "Did you see me yesterday?",
+  answer: "Kecha meni ko'rdingmi?",
   options: [
-    "must",
-    "need",
-    "needn't",
-    "mustn't"
+    "Ertaga meni ko'rasanmi?",
+    "Meni ko'rdingmi?",
+    "Kecha meni ko'rdingmi?",
+    "Meni ko'rasanmi?"
   ]
 },
   {
   numb: 4,
-  question: "_____ would you like , tea or coffee?    Tea, please.",
-  answer: "What",
+  question: "Nima xoxlaysan?",
+  answer: "What do you want?",
   options: [
-    "They",
-    "Why",
-    "What",
-    "I"
+    "What did you want?",
+    "Why do you want?",
+    "What are you wanting?",
+    "What do you want?"
   ]
 },
   {
   numb: 5,
-  question: "I wonder why Tom isn't at work today. I suppose he must ______ ill.",
-  answer: "be",
+  question: "Tom comes from New York",
+  answer: "Tom Nyu Yorkdan keladi",
   options: [
-    "be",
-    "go",
-    "get",
-    "take"
+    "Tom Nyu Yorkga keladi",
+    "Tom Nyu Yorkdan kelayabdi",
+    "Tom Nyu Yorkdan keldi",
+    "Tom Nyu Yorkdan keladi"
   ]
 },
 {
   numb: 6,
-  question: "I am sure. Tom ______ (get) the job. He has a lot of experience.",
-  answer: "will get",
+  question: "Mening moshinam San Fransiskoda.",
+  answer: "My car is in San-Fransico",
   options: [
-    "gets",
-    "got",
-    "is getting",
-    "will get"
+    "Car is in San-Fransico",
+    "My car do in San-Fransico",
+    "My car is in San-Fransico",
+    "My car in San-Fransico"
   ]
 },
 {
   numb: 7,
-  question: "It's been raining ________. I got up this morning.",
-  answer: "since",
+  question: "Men Amerikada edim",
+  answer: "I was in America",
   options: [
-    "since",
-    "before",
-    "for",
-    "yet"
+    "I was in America",
+    "I were in America",
+    "I be in America",
+    "I been in America"
   ]
 },
 {
   numb: 8,
-  question: "Before you _____ (leave), don't forget to shut the windows.",
-  answer: "leave",
+  question: "Men juda xursand edim.",
+  answer: "I was vey happy",
   options: [
-    "leave",
-    "will leave",
-    "leaving",
-    "leaved"
+    "I was very happening",
+    "I will be very happy",
+    "I am very happy",
+    "I was vey happy"
   ]
 },
 {
   numb: 9,
-  question: "I am going to Paris next week. _____ I'll be there, I hope to visit a friend of mine.",
-  answer: "When",
+  question: "I want to be a Doctor.",
+  answer: "Men do'ktor bo'lishni xoxlayman",
   options: [
-    "When",
-    "If",
-    "Why",
-    "Where"
+    "Men do'ktor bo'lishni xoxlayman",
+    "Men do'ktor xoxlayman",
+    "Men do'ktorda bo'lishni xoxlayman",
+    "Men do'ktor bo'lishini xoxlayman"
   ]
 },
 {
   numb: 10,
-  question: "What colour _____ (you / paint) it.",
-  answer: "are you going to paint",
+  question: "Did you see that car?",
+  answer: "Bu moshinani ko'rganmisiz?",
   options: [
-    "do you paint",
-    "are you going to paint",
-    "are you painting",
-    "will you paint"
+    "Bu moshinani ko'rganmisiz?",
+    "Bu moshinani ko'rdingizmi?",
+    "Moshinamni ko'rdingizmi?",
+    "Moshinamni ko'rayabsizmi?"
   ]
 },
 {
   numb: 11,
-  question: "I (want) ________ to be an actor for as long as I can remember.",
-  answer: "have wanted",
+  question: "(Do / you / What / do / tashkent / in) [gapni to'g'ri joylashtiring]",
+  answer: "What do you do in Tashkent?",
   options: [
-    "had wanted",
-    "have wanted",
-    "am wanting",
-    "was want"
+    "Do you what do tashkent in?",
+    "What you do in Tashkent do?",
+    "What do you in Tashkent do?",
+    "What do you do in Tashkent?"
   ]
 },
 {
   numb: 12,
-  question: "I can't get in the house. I ________ (lose) my keys",
-  answer: "have lost",
+  question: "Men sizlarni ko'rmayabman",
+  answer: "I don't see you",
   options: [
-    "lose",
-    "have lost",
-    "had lost",
-    "lost"
+    "I don't see you",
+    "I don't see they",
+    "I am not seeing you",
+    "I am not seeing they"
   ]
 },
 {
   numb: 13,
-  question: "I ______ (learn) English for a long time.",
-  answer: "have been learning",
+  question: "I don't want to buy it",
+  answer: "Men buni sotib olishni xoxlamayman",
   options: [
-    "was learning",
-    "have been learn",
-    "have been learning",
-    "am learning"
+    "Men buni sotib olishni xoxlamayman",
+    "Men buni sotib olmayman",
+    "Men buni sotib olaman",
+    "Men buni sotib olishni xoxlamayabman"
   ]
 },
 {
   numb: 14,
-  question: "I need a stamp for this letter. _____ (you / got) any?",
-  answer: "Have you got",
+  question: "I will go to Tashkent",
+  answer: "Men Toshkentga boraman",
   options: [
-    "Did you got",
-    "Are you got",
-    "Have you got",
-    "Would you got"
+    "Men Toshkentga boraman",
+    "Men Toshkentga borayabman",
+    "Men Toshkentga bordim",
+    "Men Toshkentdaman"
   ]
 },
 {
   numb: 15,
-  question: "Tony ________ (not/play) tennis any more. He says he's too old.",
-  answer: "doesn't play",
+  question: "Does you Teacher good?",
+  answer: "Ustozingiz yaxshimi?",
   options: [
-    "haven't played",
-    "isn't playing",
-    "wasn't play",
-    "doesn't play"
-  ]
-},
-{
-  numb: 16,
-  question: "Did you ____ a car when you lived in London?",
-  answer: "have",
-  options: [
-    "was",
-    "had",
-    "has",
-    "have"
-  ]
-},
-{
-  numb: 17,
-  question: "Present Continious(she may / go / to the theatre)",
-  answer: "she may be going to the theatre",
-  options: [
-    "she may be goes to the theatre",
-    "she may be going to the theatre",
-    "she may be went to the theatre",
-    "she may be go to the theatre"
-  ]
-},
-{
-  numb: 18,
-  question: "_____  (I / take) your umbrella?   -  'Yes, it's raining out.'",
-  answer: "Can",
-  options: [
-    "Do",
-    "Why",
-    "Need",
-    "Can"
-  ]
-},
-{
-  numb: 19,
-  question: "I _____ (need to / go), so I didn't go!",
-  answer: "didn't need to go",
-  options: [
-    "need to go",
-    "didn't need to go",
-    "am needn't going",
-    "am need to going"
-  ]
-},
-{
-  numb: 20,
-  question: "When you play tennis, you ______ (watch) the ball.",
-  answer: "should watch",
-  options: [
-    "should watch",
-    "don't watch",
-    "watch",
-    "there is no correct answer"
+    "Ustozingiz yaxshi edimi?",
+    "Ustozingiz yaxshimi?",
+    "Ustozingiz yaxshi",
+    "Siz yaxshi ustozmisiz?"
   ]
 },
 ];
