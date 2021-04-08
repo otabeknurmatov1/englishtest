@@ -26,11 +26,11 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(80); //calling startTimer function
+    startTimer(120); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
 
-let timeValue =  80;
+let timeValue =  120;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -45,7 +45,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 80; 
+    timeValue = 120; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -195,7 +195,7 @@ function startTimer(time){
 }
 
 function startTimerLine(time){
-    counterLine = setInterval(timer, 105);
+    counterLine = setInterval(timer, 120);
     function timer(){
         time += 1; //upgrading time value with 1
         time_line.style.width = time + "px"; //increasing width of time_line with px by time value
@@ -215,167 +215,167 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "Nima uchun bu yerga kelayabsan?",
-  answer: "Why are you coming to here?",
+  question: "Where are you from?",
+  answer: "I’m from France",
   options: [
-    "What are you going to there?",
-    "Why are you coming to here?",
-    "When do you go to there?",
-    "How do you come to here?"
+    "I’m France.",
+    "I’m from France",
+    "French",
+    "I am Franceman"
   ]
 },
   {
   numb: 2,
-  question: "Men Turkiyaga boraman [Future]",
-  answer: "I will go to Turkey",
+  question: "How old are you?",
+  answer: "I am 16",
   options: [
-    "I am going in Turkey",
-    "I went in Turkey",
-    "I go to Turkey",
-    "I will go to Turkey"
+    "I have 16",
+    "I am 16",
+    "I have 16 years",
+    "I am 16 years"
   ]
 },
   {
   numb: 3,
-  question: "Did you see me yesterday?",
-  answer: "Kecha meni ko'rdingmi?",
+  question: "Are you having a nice time?",
+  answer: "Yes, I am",
   options: [
-    "Ertaga meni ko'rasanmi?",
-    "Meni ko'rdingmi?",
-    "Kecha meni ko'rdingmi?",
-    "Meni ko'rasanmi?"
+    "Yes, I’m nice",
+    "Yes, I’m having it.",
+    "Yes, I am.",
+    "Yes, it is."
   ]
 },
   {
   numb: 4,
-  question: "Nima xoxlaysan?",
-  answer: "What do you want?",
+  question: "Could you pass the salt please?",
+  answer: "Here you are ",
   options: [
-    "What did you want?",
-    "Why do you want?",
-    "What are you wanting?",
-    "What do you want?"
+    "Over there",
+    "I don’t know",
+    "Help yourself",
+    "Here you are"
   ]
 },
   {
   numb: 5,
-  question: "Tom comes from New York",
-  answer: "Tom Nyu Yorkdan keladi",
+  question: "Yesterday I went __________ bus to the National Museum.",
+  answer: "by",
   options: [
-    "Tom Nyu Yorkga keladi",
-    "Tom Nyu Yorkdan kelayabdi",
-    "Tom Nyu Yorkdan keldi",
-    "Tom Nyu Yorkdan keladi"
+    "on",
+    "in",
+    "by",
+    "with"
   ]
 },
 {
   numb: 6,
-  question: "Mening moshinam San Fransiskoda.",
-  answer: "My car is in San-Fransico",
+  question: "Sue and Mike __________ to go camping.",
+  answer: "said",
   options: [
-    "Car is in San-Fransico",
-    "My car do in San-Fransico",
-    "My car is in San-Fransico",
-    "My car in San-Fransico"
+    "wanted",
+    "said",
+    "made",
+    "talked"
   ]
 },
 {
   numb: 7,
-  question: "Men Amerikada edim",
-  answer: "I was in America",
+  question: "Who’s calling, please?",
+  answer: "It's David Parker",
   options: [
-    "I was in America",
-    "I were in America",
-    "I be in America",
-    "I been in America"
+    "Just a moment",
+    "It’s David Parker",
+    "I’ll call you back",
+    "Speaking"
   ]
 },
 {
   numb: 8,
-  question: "Men juda xursand edim.",
-  answer: "I was vey happy",
+  question: "They were __________ after the long journey, so they went to bed",
+  answer: "tired",
   options: [
-    "I was very happening",
-    "I will be very happy",
-    "I am very happy",
-    "I was vey happy"
+    "hungry",
+    "hot ",
+    "lazy",
+    "tired"
   ]
 },
 {
   numb: 9,
-  question: "I want to be a Doctor.",
-  answer: "Men do'ktor bo'lishni xoxlayman",
+  question: "Can you tell me the __________ to the bus station?",
+  answer: "way",
   options: [
-    "Men do'ktor bo'lishni xoxlayman",
-    "Men do'ktor xoxlayman",
-    "Men do'ktorda bo'lishni xoxlayman",
-    "Men do'ktor bo'lishini xoxlayman"
+    "road",
+    "way",
+    "direction",
+    "street"
   ]
 },
 {
   numb: 10,
-  question: "Did you see that car?",
-  answer: "Bu moshinani ko'rganmisiz?",
+  question: "- Don’t forget to put the rubbish out.   - I’ve __________ done it!",
+  answer: "already",
   options: [
-    "Bu moshinani ko'rganmisiz?",
-    "Bu moshinani ko'rdingizmi?",
-    "Moshinamni ko'rdingizmi?",
-    "Moshinamni ko'rayabsizmi?"
+    "yet",
+    "already",
+    "even",
+    "still"
   ]
 },
 {
   numb: 11,
-  question: "(Do / you / What / do / tashkent / in) [gapni to'g'ri joylashtiring]",
-  answer: "What do you do in Tashkent?",
+  question: "You don’t need to bring __________ to eat",
+  answer: "anything",
   options: [
-    "Do you what do tashkent in?",
-    "What you do in Tashkent do?",
-    "What do you in Tashkent do?",
-    "What do you do in Tashkent?"
+    "some",
+    "a food",
+    "many",
+    "anything"
   ]
 },
 {
   numb: 12,
-  question: "Men sizlarni ko'rmayabman",
-  answer: "I don't see you",
+  question: "_________ time do you have?",
+  answer: "How much",
   options: [
-    "I don't see you",
-    "I don't see they",
-    "I am not seeing you",
-    "I am not seeing they"
+    "How many",
+    "How long",
+    "How much",
+    "How much many"
   ]
 },
 {
   numb: 13,
-  question: "I don't want to buy it",
-  answer: "Men buni sotib olishni xoxlamayman",
+  question: "It’s not __________ to walk home by yourself in the dark",
+  answer: "safe ",
   options: [
-    "Men buni sotib olishni xoxlamayman",
-    "Men buni sotib olmayman",
-    "Men buni sotib olaman",
-    "Men buni sotib olishni xoxlamayabman"
+    "sure",
+    "cetain",
+    "safe",
+    "problem"
   ]
 },
 {
   numb: 14,
-  question: "I will go to Tashkent",
-  answer: "Men Toshkentga boraman",
+  question: "I’ll go and __________ if I can find him",
+  answer: "tell",
   options: [
-    "Men Toshkentga boraman",
-    "Men Toshkentga borayabman",
-    "Men Toshkentga bordim",
-    "Men Toshkentdaman"
+    "see",
+    "look",
+    "try",
+    "tell"
   ]
 },
 {
   numb: 15,
-  question: "Does you Teacher good?",
-  answer: "Ustozingiz yaxshimi?",
+  question: "My car needs __________ ",
+  answer: "to repair",
   options: [
-    "Ustozingiz yaxshi edimi?",
-    "Ustozingiz yaxshimi?",
-    "Ustozingiz yaxshi",
-    "Siz yaxshi ustozmisiz?"
+    "repairing",
+    "to repair",
+    "to be repair",
+    "repair"
   ]
 },
 ];
