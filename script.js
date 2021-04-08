@@ -218,7 +218,7 @@ let questions = [
   question: "Where are you from?",
   answer: "I’m from France",
   options: [
-    "I’m France.",
+    "I’m France",
     "I’m from France",
     "French",
     "I am Franceman"
@@ -238,7 +238,7 @@ let questions = [
   {
   numb: 3,
   question: "Are you having a nice time?",
-  answer: "Yes, I am",
+  answer: "Yes, I am.",
   options: [
     "Yes, I’m nice",
     "Yes, I’m having it.",
@@ -249,7 +249,7 @@ let questions = [
   {
   numb: 4,
   question: "Could you pass the salt please?",
-  answer: "Here you are ",
+  answer: "Here you are",
   options: [
     "Over there",
     "I don’t know",
@@ -282,7 +282,7 @@ let questions = [
 {
   numb: 7,
   question: "Who’s calling, please?",
-  answer: "It's David Parker",
+  answer: "It’s David Parker",
   options: [
     "Just a moment",
     "It’s David Parker",
@@ -348,7 +348,7 @@ let questions = [
 {
   numb: 13,
   question: "It’s not __________ to walk home by yourself in the dark",
-  answer: "safe ",
+  answer: "safe",
   options: [
     "sure",
     "cetain",
