@@ -702,7 +702,7 @@ footer button.show{
     }
 }
 
-@media onlu screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     body {
         max-width: 767px;
     }
