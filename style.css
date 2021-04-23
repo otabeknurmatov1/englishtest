@@ -385,9 +385,173 @@ footer button.show{
     background: #007bff;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) {
     body {
-        max-width: 480px;
+        max-width: 375px;
+        min-width: 320px;
+    }
+    
+    .start_btn button {
+        font-size: 12px;
+    }
+
+    .info_box {
+        width: 280px;
+        height: 300px;
+    }
+    
+    .info_box .info-title {
+        height: 30px;
+        width: 100%;
+        font-size: 11px;
+        text-align: left;
+        font-weight: 600;
+        padding: 0 30px;
+    }
+
+    .info_box .info-list {
+        padding: 5px 30px;
+    }
+
+    .info_box .info-list .info {
+        margin: 5px 0;
+        font-size: 10px;
+    }
+
+    .info_box .buttons {
+        height: 45px;
+        padding: 0 60px;
+        margin-top: 40px;
+    }
+
+    .info_box .buttons button {
+        margin: 0 5px;
+        height: 25px;
+        width: 80px;
+        font-size: 9px;
+        font-weight: 500;
+    }
+
+    section .option_list .option .icon {
+        height: 12px;
+        width: 12px;
+    }
+
+    section {
+        padding: 10px 30px;
+    }
+
+    .quiz_box{
+        width: 275px;
+        height: 300px;
+    }
+
+    .quiz_box header {
+        height: 60px;
+    }
+
+    .quiz_box header .title {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .quiz_box header .timer {
+        color: #ffffff;
+        height: 30px;
+        padding: 0 8px;
+        width: 100px;
+    }
+
+    .quiz_box header .timer .time_left_txt {
+        font-weight: 400;
+        font-size: 9px;
+        user-select: none;
+    }
+
+    .quiz_box header .timer .timer_sec {
+        font-size: 13px;
+        padding-bottom: 5px;
+        height: 22px;
+        font-weight: 600;
+        width: 30px;
+    }
+
+    section .que_text {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    section .option_list {
+        padding: 8px 0px;
+        display: block;
+    }
+
+    section .option_list .option {
+        background: aliceblue;
+        border: 1px solid #614385;
+        border-radius: 5px;
+        padding: 2px 6px;
+        font-size: 10px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer .total_que span {
+        font-size: 10px;
+    }
+
+    footer button {
+        height: 20px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .result_box {
+        width: 275px;
+        height: 200px;
+        padding: 25px 5px 0 5px;
+    }
+
+    .result_box .icon {
+        font-size: 20px;
+        color: #ffee05;
+        margin-bottom: 10px;
+    }
+
+    .result_box .complete_text {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .result_box .score_text span{
+        display: flex;
+        margin: 10px 0 0 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .result_box .buttons {
+        display: flex;
+        margin: 15px 0 5px 0;
+    }
+
+    .result_box .buttons button {
+        margin: 0 10px;
+        height: 20px;
+        padding: 0 8px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+        min-width: 480px;
+        max-width: 767px;
     }
     
     .start_btn button {
@@ -538,7 +702,7 @@ footer button.show{
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media onlu screen and (min-width: 768px) {
     body {
         max-width: 767px;
     }
@@ -677,7 +841,7 @@ footer button.show{
     .result_box .score_text span{
         display: flex;
         margin: 10px 0;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
     }
 
