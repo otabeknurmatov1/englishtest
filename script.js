@@ -215,167 +215,277 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "Where are you from?",
-  answer: "I’m from France",
+  question: "What ... you ... at the weekend?",
+  answer: "do / do",
   options: [
-    "I’m France",
-    "I’m from France",
-    "French",
-    "I am Franceman"
+    "does / does",
+    "does / do",
+    "do / does",
+    "do / do"
   ]
 },
   {
   numb: 2,
-  question: "How old are you?",
-  answer: "I am 16",
+  question: "... she ... French",
+  answer: "Does / speak",
   options: [
-    "I have 16",
-    "I am 16",
-    "I have 16 years",
-    "I am 16 years"
+    "Does / speaks",
+    "Is / speak",
+    "Does / speak",
+    "Do / speak"
   ]
 },
   {
   numb: 3,
-  question: "Are you having a nice time?",
-  answer: "Yes, I am.",
+  question: "Our teacher gives ... a lot of homeworks",
+  answer: "us",
   options: [
-    "Yes, I’m nice",
-    "Yes, I’m having it.",
-    "Yes, I am.",
-    "Yes, it is."
+    "our",
+    "us",
+    "her",
+    "his"
   ]
 },
   {
   numb: 4,
-  question: "Could you pass the salt please?",
-  answer: "Here you are",
+  question: "Where ... they live?",
+  answer: "do",
   options: [
-    "Over there",
-    "I don’t know",
-    "Help yourself",
-    "Here you are"
+    "are",
+    "do",
+    "does",
+    "is"
   ]
 },
   {
   numb: 5,
-  question: "Yesterday I went __________ bus to the National Museum.",
-  answer: "by",
+  question: "How many languages ... you ...?",
+  answer: "do / speak",
   options: [
-    "on",
-    "in",
-    "by",
-    "with"
+    "does / speaks",
+    "do / speak",
+    "did / speaks",
+    "are / speak"
   ]
 },
 {
   numb: 6,
-  question: "Sue and Mike __________ to go camping.",
-  answer: "said",
+  question: "Annie ... from Ireland",
+  answer: "comes",
   options: [
-    "wanted",
-    "said",
-    "made",
-    "talked"
+    "comes",
+    "come",
+    "is coming",
+    "coming"
   ]
 },
 {
   numb: 7,
-  question: "Who’s calling, please?",
-  answer: "It’s David Parker",
+  question: "... to go out tonight?",
+  answer: "Do you want",
   options: [
-    "Just a moment",
-    "It’s David Parker",
-    "I’ll call you back",
-    "Speaking"
+    "Are you wanting",
+    "Is you want",
+    "Should you want",
+    "Do you want"
   ]
 },
 {
   numb: 8,
-  question: "They were __________ after the long journey, so they went to bed",
-  answer: "tired",
+  question: "... the computer at the moment?",
+  answer: "Does Mr. Taylor use",
   options: [
-    "hungry",
-    "hot ",
-    "lazy",
-    "tired"
+    "Does Mr. Taylor use",
+    "Is Mr. Taylor using",
+    "Did Mr. Taylor use",
+    "Will Mr. Taylor use"
   ]
 },
 {
   numb: 9,
-  question: "Can you tell me the __________ to the bus station?",
-  answer: "way",
+  question: "I ... six pages.",
+  answer: "have written",
   options: [
-    "road",
-    "way",
-    "direction",
-    "street"
+    "am written",
+    "have written",
+    "have been writing",
+    "write"
   ]
 },
 {
   numb: 10,
-  question: "- Don’t forget to put the rubbish out.   - I’ve __________ done it!",
-  answer: "already",
+  question: "The sofa was so ... that I felt asleep.",
+  answer: "comfotable",
   options: [
-    "yet",
-    "already",
-    "even",
-    "still"
+    "honest",
+    "successful",
+    "comfoting",
+    "comfotable"
   ]
 },
 {
   numb: 11,
-  question: "You don’t need to bring __________ to eat",
-  answer: "anything",
+  question: "... time do you win my brother",
+  answer: "How many",
   options: [
-    "some",
-    "a food",
-    "many",
-    "anything"
+    "How much",
+    "What",
+    "How many",
+    "Do"
   ]
 },
 {
   numb: 12,
-  question: "_________ time do you have?",
-  answer: "How much",
+  question: "I met my classmates ... the party.",
+  answer: "at",
   options: [
-    "How many",
-    "How long",
-    "How much",
-    "How much many"
+    "in",
+    "on",
+    "at",
+    "for"
   ]
 },
 {
   numb: 13,
-  question: "It’s not __________ to walk home by yourself in the dark",
-  answer: "safe",
+  question: "I will have a bath ... I go to bed",
+  answer: "before",
   options: [
-    "sure",
-    "cetain",
-    "safe",
-    "problem"
+    "when",
+    "if",
+    "until",
+    "before"
   ]
 },
 {
   numb: 14,
-  question: "I’ll go and __________ if I can find him",
-  answer: "tell",
+  question: "... you have any problem, ask me.",
+  answer: "When",
   options: [
-    "see",
-    "look",
-    "try",
-    "tell"
+    "After",
+    "Before",
+    "Until",
+    "When"
   ]
 },
 {
   numb: 15,
-  question: "My car needs __________ ",
-  answer: "to repair",
+  question: "I lost my glasses. I looked ... but I couldn't find them.",
+  answer: "Everywhere",
   options: [
-    "repairing",
-    "to repair",
-    "to be repair",
-    "repair"
+    "somewhere",
+    "nowhere",
+    "everywhere",
+    "in"
+  ]
+},
+{
+  numb: 16,
+  question: "Sue and Geoff ... a shop",
+  answer: "runs",
+  options: [
+    "run",
+    "work",
+    "study",
+    "runs"
+  ]
+},
+{
+  numb: 17,
+  question: "She ... school ... 7:45 a.m.",
+  answer: "goes / at",
+  options: [
+    "goes / at",
+    "go / in",
+    "go / on",
+    "goes / to"
+  ]
+},
+{
+  numb: 18,
+  question: "I play tennis ... times in my life.",
+  answer: "many",
+  options: [
+    "a lot",
+    "much",
+    "many",
+    "not"
+  ]
+},
+{
+  numb: 19,
+  question: "Not all English people ... fish and chips.",
+  answer: "like",
+  options: [
+    "like",
+    "doesn't like",
+    "likes",
+    "don't like"
+  ]
+},
+{
+  numb: 20,
+  question: "Nobody ... here to play with me.",
+  answer: "is",
+  options: [
+    "are",
+    "is",
+    "am",
+    "isn't"
+  ]
+},
+{
+  numb: 21,
+  question: "I am ... than anyone in this world.",
+  answer: "better",
+  options: [
+    "better",
+    "gooder",
+    "good",
+    "the best"
+  ]
+},
+{
+  numb: 22,
+  question: "How much milk ... there?",
+  answer: "is",
+  options: [
+    "are",
+    "is",
+    "do",
+    "were"
+  ]
+},
+{
+  numb: 23,
+  question: "David ... a computer",
+  answer: "doesn't have",
+  options: [
+    "isn't have",
+    "don't have",
+    "not have",
+    "doesn't have"
+  ]
+},
+{
+  numb: 24,
+  question: "... Tom and Betty have a iPhone 12 Pro Max?",
+  answer: "Do",
+  options: [
+    "Is",
+    "Are",
+    "Do",
+    "Have"
+  ]
+},
+{
+  numb: 25,
+  question: "How much ... bananas?",
+  answer: "are",
+  options: [
+    "are",
+    "is",
+    "do",
+    "was"
   ]
 },
 ];

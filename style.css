@@ -536,14 +536,14 @@ footer button.show{
 
     .result_box .buttons {
         display: flex;
-        margin: 15px 0 5px 0;
+        margin: 15px 0 0 0;
     }
 
     .result_box .buttons button {
         margin: 0 10px;
-        height: 20px;
-        padding: 0 8px;
-        font-size: 10px;
+        height: 30px;
+        padding: 0 11px;
+        font-size: 12px;
         font-weight: 500;
     }
 }
