@@ -370,7 +370,7 @@ let questions = [
 {
   numb: 15,
   question: "I lost my glasses. I looked ... but I couldn't find them.",
-  answer: "Everywhere",
+  answer: "everywhere",
   options: [
     "somewhere",
     "nowhere",
