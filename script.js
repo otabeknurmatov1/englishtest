@@ -215,57 +215,57 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "What ... you ... at the weekend?",
-  answer: "do / do",
+  question: "Our homework .... very difficult yesterday, but today it .... easy.",
+  answer: "was / is",
   options: [
-    "does / does",
-    "does / do",
-    "do / does",
-    "do / do"
+    "is / is",
+    "is / was",
+    "was / is",
+    "was / was"
   ]
 },
   {
   numb: 2,
-  question: "... she ... French",
-  answer: "Does / speak",
+  question: "He is .... older than he looks",
+  answer: "*",
   options: [
-    "Does / speaks",
-    "Is / speak",
-    "Does / speak",
-    "Do / speak"
+    "much",
+    "more",
+    "*",
+    "the"
   ]
 },
   {
   numb: 3,
-  question: "Our teacher gives ... a lot of homeworks",
-  answer: "us",
+  question: "Julie is married .... Sam.",
+  answer: "to",
   options: [
-    "our",
-    "us",
-    "her",
-    "his"
+    "to",
+    "in",
+    "with",
+    "at"
   ]
 },
   {
   numb: 4,
-  question: "Where ... they live?",
-  answer: "do",
+  question: "Can I speak .... you for a minute?",
+  answer: "with",
   options: [
-    "are",
-    "do",
-    "does",
-    "is"
+    "with",
+    "for",
+    "at",
+    "of"
   ]
 },
   {
   numb: 5,
-  question: "How many languages ... you ...?",
-  answer: "do / speak",
+  question: "You can tell me your secret. I .... anyone.",
+  answer: "won't tell",
   options: [
-    "does / speaks",
-    "do / speak",
-    "did / speaks",
-    "are / speak"
+    "am not going tell",
+    "don't tell",
+    "won't tell",
+    "didn't tell"
   ]
 },
 {
