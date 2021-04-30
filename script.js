@@ -26,11 +26,11 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(120); //calling startTimer function
+    startTimer(180); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 }
 
-let timeValue =  120;
+let timeValue =  180;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -45,7 +45,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 120; 
+    timeValue = 180; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -150,17 +150,17 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 12){ // if user scored more than 3
+    if (userScore > 30){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>wow congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>WOW! 🎉 Natija : <p>'+ userScore +'</p> ta togri javob.</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
-    else if(userScore > 7){ // if user scored more than 1
-        let scoreTag = '<span>Nice work 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+    else if(userScore > 20){ // if user scored more than 1
+        let scoreTag = '<span>😎 Natija : <p>'+ userScore +'</p> ta.</span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>it is not good dear 😐, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>😐 Natija : <p>'+ userScore +'</p> ta.</span>';
         scoreText.innerHTML = scoreTag;
     }
 }
@@ -281,211 +281,211 @@ let questions = [
 },
 {
   numb: 7,
-  question: "... to go out tonight?",
-  answer: "Do you want",
+  question: "Oxford is one of .... oldest universities in Europe.",
+  answer: "the",
   options: [
-    "Are you wanting",
-    "Is you want",
-    "Should you want",
-    "Do you want"
+    "the",
+    "*",
+    "much",
+    "more"
   ]
 },
 {
   numb: 8,
-  question: "... the computer at the moment?",
-  answer: "Does Mr. Taylor use",
+  question: "I live ... the third floor",
+  answer: "on",
   options: [
-    "Does Mr. Taylor use",
-    "Is Mr. Taylor using",
-    "Did Mr. Taylor use",
-    "Will Mr. Taylor use"
-  ]
-},
-{
-  numb: 9,
-  question: "I ... six pages.",
-  answer: "have written",
-  options: [
-    "am written",
-    "have written",
-    "have been writing",
-    "write"
-  ]
-},
-{
-  numb: 10,
-  question: "The sofa was so ... that I felt asleep.",
-  answer: "comfotable",
-  options: [
-    "honest",
-    "successful",
-    "comfoting",
-    "comfotable"
-  ]
-},
-{
-  numb: 11,
-  question: "... time do you win my brother",
-  answer: "How many",
-  options: [
-    "How much",
-    "What",
-    "How many",
-    "Do"
-  ]
-},
-{
-  numb: 12,
-  question: "I met my classmates ... the party.",
-  answer: "at",
-  options: [
-    "in",
-    "on",
     "at",
+    "on",
+    "in",
     "for"
   ]
 },
 {
-  numb: 13,
-  question: "I will have a bath ... I go to bed",
-  answer: "before",
+  numb: 9,
+  question: "I .... play chess .... I was nine years old.",
+  answer: "could / when",
   options: [
-    "when",
-    "if",
-    "until",
-    "before"
+    "could / when",
+    "when / can",
+    "could / what",
+    "can / when"
+  ]
+},
+{
+  numb: 10,
+  question: "Only Sam .... play the piano.",
+  answer: "can",
+  options: [
+    "were",
+    "is",
+    "can",
+    "was"
+  ]
+},
+{
+  numb: 11,
+  question: "The weather .... great today!",
+  answer: "is",
+  options: [
+    "was",
+    "is",
+    "were",
+    "will be"
+  ]
+},
+{
+  numb: 12,
+  question: "We .... leave now or we'll be late.",
+  answer: "must",
+  options: [
+    "has to",
+    "must",
+    "can",
+    "will"
+  ]
+},
+{
+  numb: 13,
+  question: "Kim ... ski 4 years ago, but he .... ski very well now.",
+  answer: "could / can't",
+  options: [
+    "can / couldn't",
+    "could / couldn't",
+    "could / can't",
+    "can / can't"
   ]
 },
 {
   numb: 14,
-  question: "... you have any problem, ask me.",
-  answer: "When",
+  question: "It's very cold. You .... to put a sweater on.",
+  answer: "ought",
   options: [
-    "After",
-    "Before",
-    "Until",
-    "When"
+    "should",
+    "has",
+    "must",
+    "ought"
   ]
 },
 {
   numb: 15,
-  question: "I lost my glasses. I looked ... but I couldn't find them.",
-  answer: "everywhere",
+  question: "We ... see him tomorrow.",
+  answer: "might",
   options: [
-    "somewhere",
-    "nowhere",
-    "everywhere",
+    "ought",
+    "had to",
+    "might",
     "in"
   ]
 },
 {
   numb: 16,
-  question: "Sue and Geoff ... a shop",
-  answer: "runs",
+  question: "A policeman .... me crossing the street yesterday.",
+  answer: "saw",
   options: [
-    "run",
-    "work",
-    "study",
-    "runs"
+    "saw",
+    "seen",
+    "see",
+    "will see"
   ]
 },
 {
   numb: 17,
-  question: "She ... school ... 7:45 a.m.",
-  answer: "goes / at",
+  question: "Look! The cat .... your cutlet.",
+  answer: "is eating",
   options: [
-    "goes / at",
-    "go / in",
-    "go / on",
-    "goes / to"
+    "eats",
+    "is eating",
+    "ate",
+    "was eating"
   ]
 },
 {
   numb: 18,
-  question: "I play tennis ... times in my life.",
-  answer: "many",
+  question: "Why is .... sitting in the dark room?",
+  answer: "she",
   options: [
-    "a lot",
-    "much",
-    "many",
-    "not"
+    "her",
+    "them",
+    "our",
+    "she"
   ]
 },
 {
   numb: 19,
-  question: "Not all English people ... fish and chips.",
-  answer: "like",
+  question: ".... apple",
+  answer: "an",
   options: [
-    "like",
-    "doesn't like",
-    "likes",
-    "don't like"
+    "a",
+    "an",
+    "one",
+    "*"
   ]
 },
 {
   numb: 20,
-  question: "Nobody ... here to play with me.",
-  answer: "is",
+  question: "She .... run faster than me.",
+  answer: "can",
   options: [
-    "are",
-    "is",
-    "am",
-    "isn't"
+    "cans",
+    "could",
+    "can",
+    "coulds"
   ]
 },
 {
   numb: 21,
-  question: "I am ... than anyone in this world.",
-  answer: "better",
+  question: "I ... go to Paris after 18 july.",
+  answer: "may",
   options: [
-    "better",
-    "gooder",
-    "good",
-    "the best"
+    "should",
+    "must",
+    "can",
+    "may"
   ]
 },
 {
   numb: 22,
-  question: "How much milk ... there?",
-  answer: "is",
+  question: "Many .... doing their homework.",
+  answer: "students are",
   options: [
-    "are",
-    "is",
-    "do",
-    "were"
+    "students",
+    "student are",
+    "students are",
+    "student"
   ]
 },
 {
   numb: 23,
-  question: "David ... a computer",
-  answer: "doesn't have",
+  question: ".... week, I went to park with my family",
+  answer: "Last",
   options: [
-    "isn't have",
-    "don't have",
-    "not have",
-    "doesn't have"
+    "After",
+    "Two",
+    "Last",
+    "In"
   ]
 },
 {
   numb: 24,
-  question: "... Tom and Betty have a iPhone 12 Pro Max?",
-  answer: "Do",
+  question: "Ulug'bek .... ill a day ....",
+  answer: "was / ago",
   options: [
-    "Is",
-    "Are",
-    "Do",
-    "Have"
+    "was / ago",
+    "is / ago",
+    "were / last",
+    "was / last"
   ]
 },
 {
   numb: 25,
-  question: "How much ... bananas?",
-  answer: "are",
+  question: "I .... study hard everyday.",
+  answer: "must",
   options: [
-    "are",
-    "is",
-    "do",
-    "was"
+    "should",
+    "may",
+    "must",
+    "ought to"
   ]
 },
 ];
