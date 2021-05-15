@@ -215,8 +215,8 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "Our homework .... very difficult yesterday, but today it .... easy.",
-  answer: "was / is",
+  question: "The weather .... nice today, but it .... nasty yesterday",
+  answer: "is / was",
   options: [
     "is / is",
     "is / was",
@@ -226,34 +226,34 @@ let questions = [
 },
   {
   numb: 2,
-  question: "He is .... older than he looks",
-  answer: "*",
+  question: "I've been a journalist .... two years",
+  answer: "for",
   options: [
-    "much",
-    "more",
-    "*",
-    "the"
+    "since",
+    "for",
+    "in",
+    "before"
   ]
 },
   {
   numb: 3,
-  question: "Julie is married .... Sam.",
-  answer: "to",
+  question: "I can't come out because I've .... washed my hair.",
+  answer: "just",
   options: [
-    "to",
-    "in",
-    "with",
-    "at"
+    "never",
+    "ever",
+    "yet",
+    "just"
   ]
 },
   {
   numb: 4,
-  question: "Can I speak .... you for a minute?",
-  answer: "with",
+  question: "Can you tell the difference .... cat and tiger?",
+  answer: "between",
   options: [
-    "with",
-    "for",
-    "at",
+    "on",
+    "out of",
+    "between",
     "of"
   ]
 },
@@ -270,13 +270,13 @@ let questions = [
 },
 {
   numb: 6,
-  question: "Annie ... from Ireland",
-  answer: "comes",
+  question: "I .... for a new job.",
+  answer: "have applied",
   options: [
-    "comes",
-    "come",
-    "is coming",
-    "coming"
+    "have applied",
+    "have been applied",
+    "apply",
+    "been applied"
   ]
 },
 {
@@ -303,189 +303,189 @@ let questions = [
 },
 {
   numb: 9,
-  question: "I .... play chess .... I was nine years old.",
-  answer: "could / when",
+  question: "I've never .... to Australia, but I'd like to go.",
+  answer: "been",
   options: [
-    "could / when",
-    "when / can",
-    "could / what",
-    "can / when"
+    "went",
+    "gone",
+    "been",
+    "being"
   ]
 },
 {
   numb: 10,
-  question: "Only Sam .... play the piano.",
-  answer: "can",
+  question: "Today .... weather is very hot.",
+  answer: "*",
   options: [
-    "were",
-    "is",
-    "can",
-    "was"
-  ]
-},
-{
-  numb: 11,
-  question: "The weather .... great today!",
-  answer: "is",
-  options: [
-    "was",
-    "is",
-    "were",
-    "will be"
-  ]
-},
-{
-  numb: 12,
-  question: "We .... leave now or we'll be late.",
-  answer: "must",
-  options: [
-    "has to",
-    "must",
-    "can",
-    "will"
-  ]
-},
-{
-  numb: 13,
-  question: "Kim ... ski 4 years ago, but he .... ski very well now.",
-  answer: "could / can't",
-  options: [
-    "can / couldn't",
-    "could / couldn't",
-    "could / can't",
-    "can / can't"
-  ]
-},
-{
-  numb: 14,
-  question: "It's very cold. You .... to put a sweater on.",
-  answer: "ought",
-  options: [
-    "should",
-    "has",
-    "must",
-    "ought"
-  ]
-},
-{
-  numb: 15,
-  question: "We ... see him tomorrow.",
-  answer: "might",
-  options: [
-    "ought",
-    "had to",
-    "might",
-    "in"
-  ]
-},
-{
-  numb: 16,
-  question: "A policeman .... me crossing the street yesterday.",
-  answer: "saw",
-  options: [
-    "saw",
-    "seen",
-    "see",
-    "will see"
-  ]
-},
-{
-  numb: 17,
-  question: "Look! The cat .... your cutlet.",
-  answer: "is eating",
-  options: [
-    "eats",
-    "is eating",
-    "ate",
-    "was eating"
-  ]
-},
-{
-  numb: 18,
-  question: "Why is .... sitting in the dark room?",
-  answer: "she",
-  options: [
-    "her",
-    "them",
-    "our",
-    "she"
-  ]
-},
-{
-  numb: 19,
-  question: ".... apple",
-  answer: "an",
-  options: [
+    "the",
     "a",
     "an",
-    "one",
     "*"
   ]
 },
 {
-  numb: 20,
-  question: "She .... run faster than me.",
-  answer: "can",
+  numb: 11,
+  question: "My father is .... engineer.",
+  answer: "an",
   options: [
-    "cans",
-    "could",
-    "can",
-    "coulds"
+    "a",
+    "*",
+    "an",
+    "the"
+  ]
+},
+{
+  numb: 12,
+  question: "There is a lot of ice in .... fridge.",
+  answer: "the",
+  options: [
+    "a",
+    "*",
+    "an",
+    "the"
+  ]
+},
+{
+  numb: 13,
+  question: "There .... a bag. There .... three bags.",
+  answer: "isn't / are",
+  options: [
+    "isn't / are",
+    "is / is",
+    "not / are",
+    "aren't / are"
+  ]
+},
+{
+  numb: 14,
+  question: "How many .... are there in the fridge?",
+  answer: "apples",
+  options: [
+    "apple",
+    "apples",
+    "of apples",
+    "a apple"
+  ]
+},
+{
+  numb: 15,
+  question: "I like Tom, .... I don't like his wife.",
+  answer: "but",
+  options: [
+    "and",
+    "but",
+    "so",
+    "because"
+  ]
+},
+{
+  numb: 16,
+  question: "I like Judy, .... I often visit her.",
+  answer: "so",
+  options: [
+    "and",
+    "but",
+    "so",
+    "because"
+  ]
+},
+{
+  numb: 17,
+  question: "Can I talk .... Mr. Adams .... your mobile phone?",
+  answer: "with / on",
+  options: [
+    "with / on",
+    "on / in",
+    "on / on",
+    "on / to"
+  ]
+},
+{
+  numb: 18,
+  question: "You'll find the exercies .... page 16.",
+  answer: "on",
+  options: [
+    "at",
+    "on",
+    "in",
+    "*"
+  ]
+},
+{
+  numb: 19,
+  question: "We .... see Tom last night.",
+  answer: "didn't",
+  options: [
+    "don't",
+    "didn't",
+    "doesn't",
+    "isn't"
+  ]
+},
+{
+  numb: 20,
+  question: "I .... to go now.",
+  answer: "have",
+  options: [
+    "should",
+    "must",
+    "have",
+    "ought"
   ]
 },
 {
   numb: 21,
-  question: "I ... go to Paris after 18 july.",
-  answer: "may",
+  question: "I called you .... seven o'clock yesterday.",
+  answer: "at",
   options: [
-    "should",
-    "must",
-    "can",
-    "may"
+    "on",
+    "in",
+    "at",
+    "of"
   ]
 },
 {
   numb: 22,
-  question: "Many .... doing their homework.",
-  answer: "students are",
+  question: "Would you like to go America? (no to'g'ri javobni belgilang.)",
+  answer: "Yes, I want",
   options: [
-    "students",
-    "student are",
-    "students are",
-    "student"
+    "I would like to go there",
+    "Yes, I'd",
+    "Yup, I would",
+    "Yes, I want"
   ]
 },
 {
   numb: 23,
-  question: ".... week, I went to park with my family",
-  answer: "Last",
+  question: "Tell us .... your holiday.",
+  answer: "about",
   options: [
-    "After",
-    "Two",
-    "Last",
-    "In"
+    "about",
+    "of",
+    "with",
+    "*"
   ]
 },
 {
   numb: 24,
-  question: "Ulug'bek .... ill a day ....",
-  answer: "was / ago",
+  question: ".... sugar is there?",
+  answer: "How much",
   options: [
-    "was / ago",
-    "is / ago",
-    "were / last",
-    "was / last"
+    "How much",
+    "How many",
+    "How long",
+    "How"
   ]
 },
 {
   numb: 25,
-  question: "I .... study hard everyday.",
-  answer: "must",
+  question: "David was very busy .... the afternoon.",
+  answer: "in",
   options: [
-    "should",
-    "may",
-    "must",
-    "ought to"
+    "on",
+    "at",
+    "in",
+    "*"
   ]
 },
 ];
