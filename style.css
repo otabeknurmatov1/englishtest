@@ -249,12 +249,20 @@ section .option_list .option .icon{
     color: #00ff3c;
     border-color: #24ff57;
     background: linear-gradient(90deg, #614385, #516395);
+    text-align: center;
 }
+
+.icon.tick .fa-check, .fa-times{
+    font-size: 8px;
+    position: relative;
+    top: -9px;
+}  
 
 .option_list .option .icon.cross{
     color: #fc3044;
     background: linear-gradient(90deg, #614385, #516395);
     border-color: #ff394d;
+    text-align: center;
 }
 
 footer{

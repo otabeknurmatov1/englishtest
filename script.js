@@ -215,277 +215,277 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "The weather .... nice today, but it .... nasty yesterday",
-  answer: "is / was",
+  question: "She ... her homework at night.", "asdasda"
+  answer: "does",
   options: [
-    "is / is",
-    "is / was",
-    "was / is",
-    "was / was"
+    "do",
+    "does",
+    "is doing",
+    "doing"
   ]
 },
   {
   numb: 2,
-  question: "I've been a journalist .... two years",
-  answer: "for",
+  question: "My borther and I ... football on Sundays.",
+  answer: "play",
   options: [
-    "since",
-    "for",
-    "in",
-    "before"
+    "play",
+    "am playing",
+    "going to",
+    "likes"
   ]
 },
   {
   numb: 3,
-  question: "I can't come out because I've .... washed my hair.",
-  answer: "just",
+  question: "You will kill yourself if you ... stop smoking.",
+  answer: "don't",
   options: [
-    "never",
-    "ever",
-    "yet",
-    "just"
+    "didn't",
+    "weren't",
+    "don't",
+    "aren't"
   ]
 },
   {
   numb: 4,
-  question: "Can you tell the difference .... cat and tiger?",
-  answer: "between",
+  question: "It's important that you ... late.",
+  answer: "won't be",
   options: [
-    "on",
-    "out of",
-    "between",
-    "of"
+    "don't",
+    "not to be",
+    "won't be",
+    "not be"
   ]
 },
   {
   numb: 5,
-  question: "You can tell me your secret. I .... anyone.",
-  answer: "won't tell",
+  question: "... I have a word with you, please?",
+  answer: "may",
   options: [
-    "am not going tell",
-    "don't tell",
-    "won't tell",
-    "didn't tell"
+    "may",
+    "must",
+    "had to",
+    "have to"
   ]
 },
 {
   numb: 6,
-  question: "I .... for a new job.",
-  answer: "have applied",
+  question: "I did'nt want to go there but I ...",
+  answer: "had to",
   options: [
-    "have applied",
-    "have been applied",
-    "apply",
-    "been applied"
+    "might",
+    "can't",
+    "must",
+    "had to"
   ]
 },
 {
   numb: 7,
-  question: "Oxford is one of .... oldest universities in Europe.",
-  answer: "the",
+  question: "... I take your pencil for a moment?",
+  answer: "may",
   options: [
-    "the",
-    "*",
-    "much",
-    "more"
+    "must",
+    "should",
+    "may",
+    "will"
   ]
 },
 {
   numb: 8,
-  question: "I live ... the third floor",
-  answer: "on",
+  question: "I was ill and ... go to school for some days.",
+  answer: "couldn't",
   options: [
-    "at",
-    "on",
-    "in",
-    "for"
+    "couldn't",
+    "can't",
+    "can",
+    "could"
   ]
 },
 {
   numb: 9,
-  question: "I've never .... to Australia, but I'd like to go.",
-  answer: "been",
+  question: "Mom look! I ... skate well.",
+  answer: "can",
   options: [
-    "went",
-    "gone",
-    "been",
-    "being"
+    "must",
+    "could",
+    "can",
+    "may"
   ]
 },
 {
   numb: 10,
-  question: "Today .... weather is very hot.",
-  answer: "*",
+  question: "",
+  answer: "",
   options: [
-    "the",
-    "a",
-    "an",
-    "*"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 11,
-  question: "My father is .... engineer.",
-  answer: "an",
+  question: "",
+  answer: "",
   options: [
-    "a",
-    "*",
-    "an",
-    "the"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 12,
-  question: "There is a lot of ice in .... fridge.",
-  answer: "the",
+  question: "",
+  answer: "",
   options: [
-    "a",
-    "*",
-    "an",
-    "the"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 13,
-  question: "There .... a bag. There .... three bags.",
-  answer: "isn't / are",
+  question: "",
+  answer: "",
   options: [
-    "isn't / are",
-    "is / is",
-    "not / are",
-    "aren't / are"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 14,
-  question: "How many .... are there in the fridge?",
-  answer: "apples",
+  question: "",
+  answer: "",
   options: [
-    "apple",
-    "apples",
-    "of apples",
-    "a apple"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 15,
-  question: "I like Tom, .... I don't like his wife.",
-  answer: "but",
+  question: "",
+  answer: "",
   options: [
-    "and",
-    "but",
-    "so",
-    "because"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 16,
-  question: "I like Judy, .... I often visit her.",
-  answer: "so",
+  question: "",
+  answer: "",
   options: [
-    "and",
-    "but",
-    "so",
-    "because"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 17,
-  question: "Can I talk .... Mr. Adams .... your mobile phone?",
-  answer: "with / on",
+  question: "",
+  answer: "",
   options: [
-    "with / on",
-    "on / in",
-    "on / on",
-    "on / to"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 18,
-  question: "You'll find the exercies .... page 16.",
-  answer: "on",
+  question: "",
+  answer: "",
   options: [
-    "at",
-    "on",
-    "in",
-    "*"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 19,
-  question: "We .... see Tom last night.",
-  answer: "didn't",
+  question: "",
+  answer: "",
   options: [
-    "don't",
-    "didn't",
-    "doesn't",
-    "isn't"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 20,
-  question: "I .... to go now.",
-  answer: "have",
+  question: "",
+  answer: "",
   options: [
-    "should",
-    "must",
-    "have",
-    "ought"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 21,
-  question: "I called you .... seven o'clock yesterday.",
-  answer: "at",
+  question: "",
+  answer: "",
   options: [
-    "on",
-    "in",
-    "at",
-    "of"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 22,
-  question: "Would you like to go America? (no to'g'ri javobni belgilang.)",
-  answer: "Yes, I want",
+  question: "",
+  answer: "",
   options: [
-    "I would like to go there",
-    "Yes, I'd",
-    "Yup, I would",
-    "Yes, I want"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 23,
-  question: "Tell us .... your holiday.",
-  answer: "about",
+  question: "",
+  answer: "",
   options: [
-    "about",
-    "of",
-    "with",
-    "*"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 24,
-  question: ".... sugar is there?",
-  answer: "How much",
+  question: "",
+  answer: "",
   options: [
-    "How much",
-    "How many",
-    "How long",
-    "How"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 {
   numb: 25,
-  question: "David was very busy .... the afternoon.",
-  answer: "in",
+  question: "",
+  answer: "",
   options: [
-    "on",
-    "at",
-    "in",
-    "*"
+    "",
+    "",
+    "",
+    ""
   ]
 },
 ];
