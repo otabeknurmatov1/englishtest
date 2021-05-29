@@ -314,178 +314,178 @@ let questions = [
 },
 {
   numb: 10,
-  question: "",
-  answer: "",
+  question: "Has ... seen my bag",
+  answer: "anyone",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "something",
+    "anything",
+    "someone",
+    "anyone"
   ]
 },
 {
   numb: 11,
-  question: "",
-  answer: "",
+  question: "Would you like ... tea?",
+  answer: "some",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "any",
+    "some",
+    "every",
+    "no"
   ]
 },
 {
   numb: 12,
-  question: "",
-  answer: "",
+  question: "When I was ten, my parents ... me a bicycle.",
+  answer: "bought",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "bought",
+    "buy",
+    "was buying",
+    "have bought"
   ]
 },
 {
   numb: 13,
-  question: "",
-  answer: "",
+  question: "He can’t come to the phone, he … a shower.",
+  answer: "is having",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "have",
+    "has",
+    "is having",
+    "is hasing"
   ]
 },
 {
   numb: 14,
-  question: "",
-  answer: "",
+  question: "There are a ... cakes in the cupboard.",
+  answer: "few",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "little",
+    "few",
+    "little bit",
+    "no true answers"
   ]
 },
 {
   numb: 15,
-  question: "",
-  answer: "",
+  question: "I ... with my parents since 1992.",
+  answer: "haven’t lived",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "didn’t live",
+    "haven’t lived",
+    "can't live",
+    "am not lived"
   ]
 },
 {
   numb: 16,
-  question: "",
-  answer: "",
+  question: "Titanic only ... once.",
+  answer: "has sailed",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "sailed",
+    "has sailed",
+    "have sailed",
+    "sale"
   ]
 },
 {
   numb: 17,
-  question: "",
-  answer: "",
+  question: "... Bob ... start work before 7.00?",
+  answer: "does / have to",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "does / have to",
+    "do / have to",
+    "Have / to",
+    "Have to / should"
   ]
 },
 {
   numb: 18,
-  question: "",
-  answer: "",
+  question: "You … forget to call me on my birthday.",
+  answer: "mustn't",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "must",
+    "can",
+    "may",
+    "mustn't"
   ]
 },
 {
   numb: 19,
-  question: "",
-  answer: "",
+  question: "I’ll finish this work ... go home.",
+  answer: "before",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "before",
+    "untill",
+    "always",
+    "for"
   ]
 },
 {
   numb: 20,
-  question: "",
-  answer: "",
+  question: "I haven't finished my work with my group ...",
+  answer: "yet",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "still",
+    "yet",
+    "for",
+    "*"
   ]
 },
 {
   numb: 21,
-  question: "",
-  answer: "",
+  question: "John moved to London 10 years ago and he ... lives there.",
+  answer: "still",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "yet",
+    "still",
+    "always",
+    "already"
   ]
 },
 {
   numb: 22,
-  question: "",
-  answer: "",
+  question: "What time is the accountant coming? He's ... here.",
+  answer: "already",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "already",
+    "yet",
+    "always",
+    "still"
   ]
 },
 {
   numb: 23,
-  question: "",
-  answer: "",
+  question: "I ... a headache.",
+  answer: "have got",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "have got",
+    "am having",
+    "will get",
+    "was has"
   ]
 },
 {
   numb: 24,
-  question: "",
-  answer: "",
+  question: "I ... buy a new, black and fast car.",
+  answer: "am going to",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "am",
+    "want",
+    "have",
+    "am going to"
   ]
 },
 {
   numb: 25,
-  question: "",
-  answer: "",
+  question: "I didn't find ... problems with you John.",
+  answer: "any",
   options: [
-    "",
-    "",
-    "",
-    ""
+    "some",
+    "no",
+    "any",
+    "every"
   ]
 },
 ];
