@@ -215,7 +215,7 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "She ... her homework at night.", "asdasda"
+  question: "She ... her homework at night.",
   answer: "does",
   options: [
     "do",
