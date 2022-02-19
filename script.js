@@ -215,68 +215,68 @@ function queCounter(index){
 let questions = [
   {
   numb: 1,
-  question: "She ... her homework at night.",
-  answer: "does",
+  question: "Last week I was held up ... three hours.",
+  answer: "for",
   options: [
-    "do",
-    "does",
-    "is doing",
-    "doing"
+    "while",
+    "during",
+    "for",
+    "in"
   ]
 },
   {
   numb: 2,
-  question: "My borther and I ... football on Sundays.",
-  answer: "play",
+  question: "What did you do ... the weekend?",
+  answer: "at",
   options: [
-    "play",
-    "am playing",
-    "going to",
-    "likes"
+    "in",
+    "at",
+    "with",
+    "*"
   ]
 },
   {
   numb: 3,
-  question: "You will kill yourself if you ... stop smoking.",
-  answer: "don't",
+  question: "I didn't want to go there but I ...",
+  answer: "had to",
   options: [
-    "didn't",
-    "weren't",
-    "don't",
-    "aren't"
+    "had to",
+    "must",
+    "can't",
+    "might"
   ]
 },
   {
   numb: 4,
-  question: "It's important that you ... late.",
+  question: "It's important that you ... late",
   answer: "won't be",
   options: [
-    "don't",
     "not to be",
+    "don't be",
     "won't be",
     "not be"
   ]
 },
   {
   numb: 5,
-  question: "... I have a word with you, please?",
-  answer: "may",
+  question: "You must waut ... the light changes to green.",
+  answer: "until",
   options: [
-    "may",
-    "must",
-    "had to",
-    "have to"
+    "after",
+    "before",
+    "until",
+    "as soon as"
   ]
 },
 {
   numb: 6,
-  question: "I did'nt want to go there but I ...",
-  answer: "had to",
+  question: "He agreed ... the job as soon as possible.",
+  answer: "to start",
   options: [
-    "might",
-    "can't",
-    "must",
-    "had to"
+    "start",
+    "starting",
+    "to start",
+    "starts"
   ]
 },
 {
@@ -330,7 +330,7 @@ let questions = [
   options: [
     "any",
     "some",
-    "every",
+    "a",
     "no"
   ]
 },
