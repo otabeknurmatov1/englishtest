@@ -150,15 +150,23 @@ function showResult() {
   quiz_box.classList.remove("activeQuiz"); //hide quiz box
   result_box.classList.add("activeResult"); //show result box
   const scoreText = result_box.querySelector(".score_text");
-  if (userScore > 30) { // if user scored more than 3
-    //creating a new span tag and passing the user score number and total question number
-    let scoreTag = '<span>WOW! 🎉 Natija : <p>' + userScore + '</p> ta togri javob.</span>';
-    scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
-  } else if (userScore > 20) { // if user scored more than 1
-    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.</span>';
+  if (userScore == 25) {
+    let scoreTag = '<span>WOW! 🎉 Natija : <p>' + userScore + '</p> ta togri javob.\nVa sizning darajangiz C1</span>';
+    scoreText.innerHTML = scoreTag; 
+  } else if (userScore >= 20 && userScore <=24) { 
+    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz B2</span>';
     scoreText.innerHTML = scoreTag;
-  } else { // if user scored less than 1
-    let scoreTag = '<span>😐 Natija : <p>' + userScore + '</p> ta.</span>';
+  }
+  else if (userScore >= 15 && userScore <= 19) { 
+    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz B1</span>';
+    scoreText.innerHTML = scoreTag;
+  }
+  else if (userScore >= 10 && userScore <= 15) { 
+    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz A2</span>';
+    scoreText.innerHTML = scoreTag;
+  } 
+  else {
+    let scoreTag = '<span>😐 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz A1</span>';
     scoreText.innerHTML = scoreTag;
   }
 }
