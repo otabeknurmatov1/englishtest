@@ -154,19 +154,19 @@ function showResult() {
     let scoreTag = '<span>WOW! 🎉 Natija : <p>' + userScore + '</p> ta togri javob.\nVa sizning darajangiz C1</span>';
     scoreText.innerHTML = scoreTag; 
   } else if (userScore >= 20 && userScore <=24) { 
-    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz B2</span>';
+    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning darajangiz B2</span>';
     scoreText.innerHTML = scoreTag;
   }
   else if (userScore >= 15 && userScore <= 19) { 
-    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz B1</span>';
+    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning darajangiz B1</span>';
     scoreText.innerHTML = scoreTag;
   }
   else if (userScore >= 10 && userScore <= 15) { 
-    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz A2</span>';
+    let scoreTag = '<span>😎 Natija : <p>' + userScore + '</p> ta.\nVa sizning darajangiz A2</span>';
     scoreText.innerHTML = scoreTag;
   } 
   else {
-    let scoreTag = '<span>😐 Natija : <p>' + userScore + '</p> ta.\nVa sizning natijangiz A1</span>';
+    let scoreTag = '<span>😐 Natija : <p>' + userScore + '</p> ta.\nVa sizning darajangiz A1</span>';
     scoreText.innerHTML = scoreTag;
   }
 }
