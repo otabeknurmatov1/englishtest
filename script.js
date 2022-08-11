@@ -214,332 +214,167 @@ function queCounter(index) {
 // creating an array and passing the number, questions, options, and answers
 let questions = [{
       numb: 1,
-      question: "I stopped ... when I was thirty",
-      answer: "smoking",
+      question: "Can I park here?",
+      answer: "Only for half an hour",
       options: [
-        "smoke",
-        "smoking",
-        "to smoke",
-        "to smoking"
+        "Only for half an hour",
+        "Sorry, I did that.",
+        "It's the same place",
+        "..."
       ]
     },
     {
       numb: 2,
-      question: "Why did I agree ... with you? I can't stand it.",
-      answer: "to work",
+      question: "What colour will you paint the children's bedroom?",
+      answer: "We can't decide.",
       options: [
-        "to work",
-        "work",
-        "working",
-        "to working"
+        "I hope it was right.",
+        "We can't decide.",
+        "It wasn't very difficult.",
+        "..."
       ]
     },
     {
       numb: 3,
-      question: "Please start your meal. If you ... your soup now, it ... cold",
-      answer: "didn't have / would go",
+      question: "I can't understand this email.",
+      answer: "Would you like some help?",
       options: [
-        "didn't have / would go",
-        "had / got",
-        "can eat / doesn't go",
-        "had been / would have gone"
+        "Would you like some help?",
+        "Don't you know?",
+        "I suppose you can.",
+        "..."
       ]
     },
     {
       numb: 4,
-      question: "Prince Charles ... Canadian. He ... English.",
-      answer: "is not / is",
+      question: "I'd like two tickets for tomorrow night.",
+      answer: "I'll just check for you.",
       options: [
-        "was not / were",
-        "is not / was",
-        "was not / is",
-        "is not / is"
+        "How much did you pay?",
+        "Afternoon and evening.",
+        "I'll just check for you.",
+        "..."
       ]
     },
     {
       numb: 5,
-      question: "We ... see Tom last night.",
-      answer: "didn't",
+      question: "Shall we go to the gym now?",
+      answer: "I'm too tired.",
       options: [
-        "doesn't",
-        "don't",
-        "isn't",
-        "didn't"
+        "I'm too tired.",
+        "It's very good.",
+        "Not at all.",
+        "..."
       ]
     },
     {
       numb: 6,
-      question: "You'll find the poem ... page 16.",
-      answer: "on",
+      question: "His eyes were ...... bad that he couldn't read the number plate of the car in front.",
+      answer: "",
       options: [
-        "in",
-        "on",
-        "at",
-        "over"
+        "such",
+        "too",
+        "so",
+        "very"
       ]
     },
     {
       numb: 7,
-      question: "I know that I ... late 2 days ago, but this time I ... late.",
-      answer: "wasn't / am",
+      question: "The company needs to decide ...... and for all what its position is on this point.",
+      answer: "",
       options: [
-        "am / were",
-        "wasn't / am",
-        "am not / am not",
-        "was / was"
+        "here",
+        "first",
+        "once",
+        "finally"
       ]
     },
     {
       numb: 8,
-      question: "Lucy often ... red.",
+      question: "Don't put your cup on the ...... of the table – someone will knock it off.",
       answer: "",
       options: [
-        "wear",
-        "is wearing",
-        "worn",
-        "wears"
+        "outside",
+        "edge",
+        "boundary",
+        "border"
       ]
     },
     {
       numb: 9,
-      question: "He's ... older than he looks.",
-      answer: "*",
+      question: "I'm sorry - I didn't ...... to disturb you.",
+      answer: "",
       options: [
-        "much",
-        "*",
-        "more",
-        "the"
+        "suppose",
+        "mean",
+        "think",
+        "hope"
       ]
     },
     {
       numb: 10,
-      question: "The doctor recommended that she ... in bed for a few days.",
-      answer: "would stay",
+      question: "The singer ended the concert ...... her most popular song.",
+      answer: "",
       options: [
-        "will stay",
-        "stay",
-        "would stay",
-        "to stay"
+        "by",
+        "with",
+        "in",
+        "as"
       ]
     },
     {
       numb: 11,
-      question: "Mike is sitting ... the desk ... front of the door.",
-      answer: "on / on",
+      question: "Would you mind ...... these plates a wipe before putting them in the cupboard?",
+      answer: "",
       options: [
-        "at / in",
-        "on / on",
-        "on / at",
-        "in / at"
+        "giving",
+        "making",
+        "getting",
+        "doing"
       ]
     },
   {
     numb: 12,
-    question: "Most men are anxious ... the advancement of their children.",
-    answer: "for",
+    question: "I was looking forward ...... at the new restaurant, but it was closed.",
+    answer: "",
     options: [
-      "for",
-      "from",
-      "on",
-      "with"
+      "eating",
+      "to have eaten",
+      "to eat",
+      "to eating"
     ]
   }, 
   {
     numb: 13,
-    question: "She left without ... goodbye.",
-    answer: "saying",
+    question: "...... tired Melissa is when she gets home from work, she always makes time to say goodnight to the children.",
+    answer: "",
     options: [
-      "to say",
-      "say",
-      "saying",
-      "having said"
+      "Whatever",
+      "No matter how",
+      "However much",
+      "Although"
     ]
   }, 
   {
     numb: 14,
-    question: "They were expected ... back by eleven.",
-    answer: "beeing",
+    question: "It was only ten days ago ...... she started her new job.",
+    answer: "",
     options: [
-      "beeing",
-      "been",
-      "have been",
-      "to be"
+      "then",
+      "since",
+      "after",
+      "that"
     ]
   }, 
   {
     numb: 15,
-    question: "The boy ... a blue jacket is an excellent tennis player.",
-    answer: "wearing",
+    question: "The shop didn't have the shoes I wanted, but they've ...... a pair specially for me.",
+    answer: "",
     options: [ 
-      "wears",
-      "to be worn",
-      "worn",
-      "wearing"
+      "ordered",
+      "booked",
+      "asked",
+      "commanded"
     ]
-  }, 
-  {
-    numb: 16,
-    question: "would you like ... rice?",
-    answer: "some",
-    options: [
-      "a",
-      "some",
-      "any",
-      "an"
-    ]
-  }, 
-  {
-    numb: 17,
-    question: "He always has ... egg for breakfast",
-    answer: "an",
-    options: [
-      "an",
-      "a",
-      "any",
-      "the"
-    ]
-  }, 
-  {
-    numb: 18,
-    question: "The phone rang ... I was having supper",
-    answer: "while",
-    options: [
-      "for",
-      "while",
-      "during",
-      "in"
-    ]
-  }, 
-  {
-    numb: 19,
-    question: "Traffic is always bad ... the rush hour.",
-    answer: "during",
-    options: [
-      "during",
-      "while",
-      "for",
-      "in"
-    ]
-  }, 
-  {
-    numb: 20,
-    question: "... I take your pen for a moment?",
-    answer: "May",
-    options: [
-      "May",
-      "Might",
-      "Should",
-      "Must"
-    ]
-  }, 
-  {
-    numb: 21,
-    question: "You ... do this for it's necessary.",
-    answer: "have to",
-    options: [
-      "must",
-      "have to",
-      "can",
-      "could"
-    ]
-  }, 
-  {
-    numb: 22,
-    question: "The girl ... in the yard asked me the time",
-    answer: "playing",
-    options: [
-      "play",
-      "playing",
-      "to play",
-      "was playing"
-    ]
-  }, 
-  {
-    numb: 23,
-    question: "Tom ... already left when you arrived",
-    answer: "had",
-    options: [
-      "he",
-      "just",
-      "had",
-      "was"
-    ]
-  }, 
-  {
-    numb: 24,
-    question: "Everyone will ... lunch by 2:30.",
-    answer: "have had",
-    options: [
-      "had have",
-      "be",
-      "have had",
-      "eat for"
-    ]
-  }, 
-  {
-    numb: 25,
-    question: "Excuse me, officer. I'd like you ... me.",
-    answer: "to help",
-    options: [
-      "helping",
-      "for help",
-      "to help",
-      "help"
-    ]
-  }, 
-  {
-    numb: 26,
-    question: "Mr Bond's suitcase ... examined already by the customs officer",
-    answer: "has",
-    options: [
-      "has",
-      "has been",
-      "carefully",
-      "is"
-    ]
-  }, 
-  {
-    numb: 27,
-    question: "They asked a lot of questions ... his job.",
-    answer: "about",
-    options: [
-      "about",
-      "of",
-      "for",
-      "on"
-    ]
-  }, 
-  {
-    numb: 28,
-    question: "He didn't know ... or go home.",
-    answer: "whether to wait",
-    options: [
-      "to wait",
-      "if to wait",
-      "if that he should wait",
-      "whether to wait"
-    ]
-  }, 
-  {
-    numb: 29,
-    question: "We won't have ... apples.",
-    answer: "any",
-    options: [
-      "some",
-      "a",
-      "few",
-      "some"
-    ]
-  }, 
-  {
-    numb: 30,
-    question: "The ... outside the house said 'Private'.",
-    answer: "notice",
-    options: [
-      "notice",
-      "signal",
-      "label",
-      "advice"
-    ]
-  },
+  }
 ];
