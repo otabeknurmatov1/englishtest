@@ -270,7 +270,7 @@ let questions = [{
     {
       numb: 6,
       question: "His eyes were ...... bad that he couldn't read the number plate of the car in front.",
-      answer: "",
+      answer: "so",
       options: [
         "such",
         "too",
@@ -281,7 +281,7 @@ let questions = [{
     {
       numb: 7,
       question: "The company needs to decide ...... and for all what its position is on this point.",
-      answer: "",
+      answer: "once",
       options: [
         "here",
         "first",
@@ -292,7 +292,7 @@ let questions = [{
     {
       numb: 8,
       question: "Don't put your cup on the ...... of the table – someone will knock it off.",
-      answer: "",
+      answer: "edge",
       options: [
         "outside",
         "edge",
@@ -303,7 +303,7 @@ let questions = [{
     {
       numb: 9,
       question: "I'm sorry - I didn't ...... to disturb you.",
-      answer: "",
+      answer: "mean",
       options: [
         "suppose",
         "mean",
@@ -314,7 +314,7 @@ let questions = [{
     {
       numb: 10,
       question: "The singer ended the concert ...... her most popular song.",
-      answer: "",
+      answer: "with",
       options: [
         "by",
         "with",
@@ -325,7 +325,7 @@ let questions = [{
     {
       numb: 11,
       question: "Would you mind ...... these plates a wipe before putting them in the cupboard?",
-      answer: "",
+      answer: "giving",
       options: [
         "giving",
         "making",
@@ -336,7 +336,7 @@ let questions = [{
   {
     numb: 12,
     question: "I was looking forward ...... at the new restaurant, but it was closed.",
-    answer: "",
+    answer: "to eating",
     options: [
       "eating",
       "to have eaten",
@@ -347,7 +347,7 @@ let questions = [{
   {
     numb: 13,
     question: "...... tired Melissa is when she gets home from work, she always makes time to say goodnight to the children.",
-    answer: "",
+    answer: "No matter how",
     options: [
       "Whatever",
       "No matter how",
@@ -358,7 +358,7 @@ let questions = [{
   {
     numb: 14,
     question: "It was only ten days ago ...... she started her new job.",
-    answer: "",
+    answer: "that",
     options: [
       "then",
       "since",
@@ -369,12 +369,122 @@ let questions = [{
   {
     numb: 15,
     question: "The shop didn't have the shoes I wanted, but they've ...... a pair specially for me.",
-    answer: "",
+    answer: "ordered",
     options: [ 
       "ordered",
       "booked",
       "asked",
       "commanded"
+    ]
+  },
+  {
+    numb: 16,
+    question: "Have you got time to discuss your work now or are you ...... to leave?",
+    answer: "about",
+    options: [ 
+      "thinking",
+      "round",
+      "planned",
+      "about"
+    ]
+  },
+  {
+    numb: 17,
+    question: "She came to live here ...... a month ago.",
+    answer: "almost",
+    options: [ 
+      "quite",
+      "beyond",
+      "already",
+      "almost"
+    ]
+  },
+  {
+    numb: 18,
+    question: "Once the plane is in the air, you can ...... your seat belts if you wish.",
+    answer: "unfasten",
+    options: [ 
+      "unlock",
+      "untie",
+      "undress",
+      "unfasten"
+    ]
+  },
+  {
+    numb: 19,
+    question: "I left my last job because I had no ...... to travel.",
+    answer: "opportunity",
+    options: [ 
+      "place",
+      "position",
+      "opportunity",
+      "possibility"
+    ]
+  },
+  {
+    numb: 20,
+    question: "It wasn't a bad crash and ...... damage was done to my car.",
+    answer: "little",
+    options: [ 
+      "light",
+      "mere",
+      "little",
+      "small"
+    ]
+  },
+  {
+    numb: 21,
+    question: "I'd rather you ...... to her why we can't go.",
+    answer: "explained",
+    options: [ 
+      "would explain",
+      "explained",
+      "to explain",
+      "will explain"
+    ]
+  },
+  {
+    numb: 22,
+    question: "Before making a decision, the leader considered all ...... of the argument.",
+    answer: "sides",
+    options: [ 
+      "sides",
+      "features",
+      "perspectives",
+      "shades"
+    ]
+  },
+  {
+    numb: 23,
+    question: "This new printer is recommended as being ...... reliable.",
+    answer: "highly",
+    options: [ 
+      "greatly",
+      "highly",
+      "strongly",
+      "readily"
+    ]
+  },
+  {
+    numb: 24,
+    question: "When I realised I had dropped my gloves, I decided to ...... my steps.",
+    answer: "retrace",
+    options: [ 
+      "retrace",
+      "regress",
+      "resume",
+      "return"
+    ]
+  },
+  {
+    numb: 25,
+    question: "Anne's house is somewhere in the ...... of the railway station.",
+    answer: "vicinity",
+    options: [ 
+      "region",
+      "quarter",
+      "vicinity",
+      "district"
     ]
   }
 ];
