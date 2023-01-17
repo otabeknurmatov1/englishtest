@@ -203,6 +203,7 @@ function startTimer(time) {
 
 function startTimerLine(time) {
   if (window.innerWidth > 768){
+    alert("Iltimos testni diqqat bilan imkon bo'lsa hech narsaga qaramasdan ishlang!")
     counterLine = setInterval(timer, 33.3);
     function timer() {
       time += 0.1; //upgrading time value with 1
@@ -212,7 +213,7 @@ function startTimerLine(time) {
       }
     }
   } else if (window.innerWidth > 480) {
-    alert("Hello 480")
+    alert("Iltimos testni diqqat bilan imkon bo'lsa hech narsaga qaramasdan ishlang!")
     counterLine = setInterval(timer, 430);
     function timer() {
       time += 1; //upgrading time value with 1
@@ -222,7 +223,7 @@ function startTimerLine(time) {
       }
     }
   } else {
-    alert("Hello 380")
+    alert("Iltimos testni diqqat bilan imkon bo'lsa hech narsaga qaramasdan ishlang!")
     counterLine = setInterval(timer, 480);
     function timer() {
       time += 1; //upgrading time value with 1
