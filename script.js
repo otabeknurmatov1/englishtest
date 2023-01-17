@@ -6,7 +6,7 @@ const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
-const time_line = document.querySelector("header .time_line");
+const time_line = document.querySelector(".count_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
@@ -202,15 +202,38 @@ function startTimer(time) {
 }
 
 function startTimerLine(time) {
-  counterLine = setInterval(timer, 120);
-
-  function timer() {
-    time += 1; //upgrading time value with 1
-    time_line.style.width = time + "px"; //increasing width of time_line with px by time value
-    if (time > 549) { //if time value is greater than 549
-      clearInterval(counterLine); //clear counterLine
+  if (window.innerWidth > 768){
+    counterLine = setInterval(timer, 33.3);
+    function timer() {
+      time += 0.1; //upgrading time value with 1
+      time_line.style.width = time + "px"; //increasing width of time_line with px by time value
+      if (time == 180) { //if time value is greater than 549
+        clearInterval(counterLine); //clear counterLine
+      }
+    }
+  } else if (window.innerWidth > 480) {
+    alert("Hello 480")
+    counterLine = setInterval(timer, 430);
+    function timer() {
+      time += 1; //upgrading time value with 1
+      time_line.style.width = time + "px"; //increasing width of time_line with px by time value
+      if (time == 380) { //if time value is greater than 549
+        clearInterval(counterLine); //clear counterLine
+      }
+    }
+  } else {
+    alert("Hello 380")
+    counterLine = setInterval(timer, 480);
+    function timer() {
+      time += 1; //upgrading time value with 1
+      time_line.style.width = time + "px"; //increasing width of time_line with px by time value
+      if (time == 390) { //if time value is greater than 549
+        clearInterval(counterLine); //clear counterLine
+      }
     }
   }
+  
+  
 }
 
 function queCounter(index) {
@@ -220,279 +243,185 @@ function queCounter(index) {
 }
 
 // creating an array and passing the number, questions, options, and answers
-let questions = [{
-      numb: 1,
-      question: "Can I park here?",
-      answer: "Only for half an hour",
-      options: [
-        "Only for half an hour",
-        "Sorry, I did that.",
-        "It's the same place",
-        "..."
-      ]
-    },
-    {
-      numb: 2,
-      question: "What colour will you paint the children's bedroom?",
-      answer: "We can't decide.",
-      options: [
-        "I hope it was right.",
-        "We can't decide.",
-        "It wasn't very difficult.",
-        "..."
-      ]
-    },
-    {
-      numb: 3,
-      question: "I can't understand this email.",
-      answer: "Would you like some help?",
-      options: [
-        "Would you like some help?",
-        "Don't you know?",
-        "I suppose you can.",
-        "..."
-      ]
-    },
-    {
-      numb: 4,
-      question: "I'd like two tickets for tomorrow night.",
-      answer: "I'll just check for you.",
-      options: [
-        "How much did you pay?",
-        "Afternoon and evening.",
-        "I'll just check for you.",
-        "..."
-      ]
-    },
-    {
-      numb: 5,
-      question: "Shall we go to the gym now?",
-      answer: "I'm too tired.",
-      options: [
-        "I'm too tired.",
-        "It's very good.",
-        "Not at all.",
-        "..."
-      ]
-    },
-    {
-      numb: 6,
-      question: "His eyes were ...... bad that he couldn't read the number plate of the car in front.",
-      answer: "so",
-      options: [
-        "such",
-        "too",
-        "so",
-        "very"
-      ]
-    },
-    {
-      numb: 7,
-      question: "The company needs to decide ...... and for all what its position is on this point.",
-      answer: "once",
-      options: [
-        "here",
-        "first",
-        "once",
-        "finally"
-      ]
-    },
-    {
-      numb: 8,
-      question: "Don't put your cup on the ...... of the table – someone will knock it off.",
-      answer: "edge",
-      options: [
-        "outside",
-        "edge",
-        "boundary",
-        "border"
-      ]
-    },
-    {
-      numb: 9,
-      question: "I'm sorry - I didn't ...... to disturb you.",
-      answer: "mean",
-      options: [
-        "suppose",
-        "mean",
-        "think",
-        "hope"
-      ]
-    },
-    {
-      numb: 10,
-      question: "The singer ended the concert ...... her most popular song.",
-      answer: "with",
-      options: [
-        "by",
-        "with",
-        "in",
-        "as"
-      ]
-    },
-    {
-      numb: 11,
-      question: "Would you mind ...... these plates a wipe before putting them in the cupboard?",
-      answer: "giving",
-      options: [
-        "giving",
-        "making",
-        "getting",
-        "doing"
-      ]
-    },
+let questions = [
+  {
+    numb: 1,
+    question: "I _____ my homework tomorrow.",
+    answer: "will do",
+    options: ["will do", "am going to do", "do", "did"]
+  },
+  {
+    numb: 2,
+    question: "He _____ to the store every day.",
+    answer: "goes",
+    options: ["goes", "will go", "is going", "went"]
+  },
+  {
+    numb: 3,
+    question: "She _____ a sandwich for lunch.",
+    answer: "eats",
+    options: ["eats", "will eat", "is eating", "ate"]
+  },
+  {
+    numb: 4,
+    question: "They _____ to the park every weekend.",
+    answer: "go",
+    options: ["go", "will go", "are going", "went"]
+  },
+  {
+    numb: 5,
+    question: "I _____ my hair every morning.",
+    answer: "brush",
+    options: ["brush", "will brush", "am brushing", "brushed"]
+  },
+  {
+    numb: 6,
+    question: "He _____ at home on Sunday.",
+    answer: "stays",
+    options: ["stays", "will stay", "is staying", "stayed"]
+  },
+  {
+    numb: 7,
+    question: "She _____ to the gym every morning.",
+    answer: "goes",
+    options: ["goes", "will go", "is going", "went"]
+  },
+  {
+    numb: 8,
+    question: "I _____ my room every week.",
+    answer: "clean",
+    options: ["clean", "will clean", "am cleaning", "cleaned"]
+  },
+  {
+    numb: 9,
+    question: "He _____ his car every day.",
+    answer: "washes",
+    options: ["washes", "will wash", "is washing", "washed"]
+  },
+  {
+    numb: 10,
+    question: "She _____ to bed at 10 pm every night.",
+    answer: "goes",
+    options: ["goes", "will go", "is going", "went"]
+  },
+  {
+    numb: 11,
+    question: "I _____ to the gym tomorrow.",
+    answer: "will go",
+    options: ["will go", "am going", "went", "go"]
+  },
   {
     numb: 12,
-    question: "I was looking forward ...... at the new restaurant, but it was closed.",
-    answer: "to eating",
-    options: [
-      "eating",
-      "to have eaten",
-      "to eat",
-      "to eating"
-    ]
-  }, 
+    question: "He _____ a lot of books next week.",
+    answer: "will read",
+    options: ["will read", "is reading", "read", "reads"]
+  },
   {
     numb: 13,
-    question: "...... tired Melissa is when she gets home from work, she always makes time to say goodnight to the children.",
-    answer: "No matter how",
-    options: [
-      "Whatever",
-      "No matter how",
-      "However much",
-      "Although"
-    ]
-  }, 
+    question: "She _____ her dog for a walk in an hour.",
+    answer: "will take",
+    options: ["will take", "is taking", "took", "takes"]
+  },
   {
     numb: 14,
-    question: "It was only ten days ago ...... she started her new job.",
-    answer: "that",
-    options: [
-      "then",
-      "since",
-      "after",
-      "that"
-    ]
-  }, 
+    question: "They _____ to work by bus tomorrow.",
+    answer: "will go",
+    options: ["will go", "go", "going", "gone"]
+  },
   {
     numb: 15,
-    question: "The shop didn't have the shoes I wanted, but they've ...... a pair specially for me.",
-    answer: "ordered",
-    options: [ 
-      "ordered",
-      "booked",
-      "asked",
-      "commanded"
-    ]
+    question: "I _____ my teeth before bed.",
+    answer: "will brush",
+    options: ["will brush", "brush", "brushing", "brushed"]
   },
   {
     numb: 16,
-    question: "Have you got time to discuss your work now or are you ...... to leave?",
-    answer: "about",
-    options: [ 
-      "thinking",
-      "round",
-      "planned",
-      "about"
-    ]
+    question: "He _____ his sister next month.",
+    answer: "will visit",
+    options: ["will visit", "visits", "visiting", "visited"]
   },
   {
     numb: 17,
-    question: "She came to live here ...... a month ago.",
-    answer: "almost",
-    options: [ 
-      "quite",
-      "beyond",
-      "already",
-      "almost"
-    ]
+    question: "She _____ a lot of emails later today.",
+    answer: "will send",
+    options: ["will send", "sends", "sending", "sent"]
   },
   {
     numb: 18,
-    question: "Once the plane is in the air, you can ...... your seat belts if you wish.",
-    answer: "unfasten",
-    options: [ 
-      "unlock",
-      "untie",
-      "undress",
-      "unfasten"
-    ]
+    question: "They _____ a lot of time on their phones tonight.",
+    answer: "will spend",
+    options: ["will spend", "spend", "spending", "spent"]
   },
   {
     numb: 19,
-    question: "I left my last job because I had no ...... to travel.",
-    answer: "opportunity",
-    options: [ 
-      "place",
-      "position",
-      "opportunity",
-      "possibility"
-    ]
+    question: "I _____ to the park in the afternoon.",
+    answer: "am going",
+    options: ["am going", "will go", "went", "go"]
   },
   {
     numb: 20,
-    question: "It wasn't a bad crash and ...... damage was done to my car.",
-    answer: "little",
-    options: [ 
-      "light",
-      "mere",
-      "little",
-      "small"
-    ]
+    question: "He _____ his hair next week.",
+    answer: "will cut",
+    options: ["will cut", "cuts", "cutting", "cut"]
   },
   {
     numb: 21,
-    question: "I'd rather you ...... to her why we can't go.",
-    answer: "explained",
-    options: [ 
-      "would explain",
-      "explained",
-      "to explain",
-      "will explain"
-    ]
+    question: "She _____ a lot of water every day.",
+    answer: "drinks",
+    options: ["drinks", "will drink", "drinking", "drunk"]
   },
   {
     numb: 22,
-    question: "Before making a decision, the leader considered all ...... of the argument.",
-    answer: "sides",
-    options: [ 
-      "sides",
-      "features",
-      "perspectives",
-      "shades"
-    ]
+    question: "They _____ their vacation next month.",
+    answer: "will take",
+    options: ["will take", "took", "takes", "taking"]
   },
   {
     numb: 23,
-    question: "This new printer is recommended as being ...... reliable.",
-    answer: "highly",
-    options: [ 
-      "greatly",
-      "highly",
-      "strongly",
-      "readily"
-    ]
+    question: "I _____ my driver's license test next week.",
+    answer: "will take",
+    options: ['take', 'took', 'will take', 'taked']
   },
   {
     numb: 24,
-    question: "When I realised I had dropped my gloves, I decided to ...... my steps.",
-    answer: "retrace",
-    options: [ 
-      "retrace",
-      "regress",
-      "resume",
-      "return"
-    ]
+    question: "He ___ the news every morning.",
+    answer: "watches",
+    options: ["watches", "watch", "watching", "watched"]
   },
   {
     numb: 25,
-    question: "Anne's house is somewhere in the ...... of the railway station.",
-    answer: "vicinity",
-    options: [ 
-      "region",
-      "quarter",
-      "vicinity",
-      "district"
-    ]
+    question: "She ___ to music while she works.",
+    answer: "listens",
+    options: ["listens", "listen", "listening", "listened"]
+  },
+  {
+    numb: 26,
+    question: "They ___ dinner at 7 pm every night.",
+    answer: "have",
+    options: ["have", "has", "having", "had"]
+  },
+  {
+    numb: 27,
+    question: "I ___ a lot of coffee in the morning.",
+    answer: "drink",
+    options: ["drink", "drinks", "drinking", "drunk"]
+  },
+  {
+    numb: 28,
+    question: "He ___ his laundry every weekend.",
+    answer: "does",
+    options: ["does", "do", "did", "done"]
+  },
+  {
+    numb: 29,
+    question: "She ___ to yoga class every Tuesday.",
+    answer: "goes",
+    options: ["goes", "go", "going", "gone"]
+  },
+  {
+    numb: 30,
+    question: "They ___ a lot of traveling every year.",
+    answer: "do",
+    options: ["do", "does", "did", "done"]
   }
 ];
