@@ -9,7 +9,7 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector(".count_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
-
+alert("Iltimos testni diqqat bilan imkon bo'lsa hech narsaga qaramasdan ishlang!")
 // if startQuiz button clicked
 start_btn.onclick = () => {
   info_box.classList.add("activeInfo"); //show info box
@@ -203,7 +203,6 @@ function startTimer(time) {
 
 function startTimerLine(time) {
   if (window.innerWidth > 768){
-    alert("Iltimos testni diqqat bilan imkon bo'lsa hech narsaga qaramasdan ishlang!")
     counterLine = setInterval(timer, 33.3);
     function timer() {
       time += 0.1; //upgrading time value with 1
@@ -213,7 +212,6 @@ function startTimerLine(time) {
       }
     }
   } else if (window.innerWidth > 480) {
-    alert("Iltimos testni diqqat bilan imkon bo'lsa hech narsaga qaramasdan ishlang!")
     counterLine = setInterval(timer, 430);
     function timer() {
       time += 1; //upgrading time value with 1
@@ -223,7 +221,6 @@ function startTimerLine(time) {
       }
     }
   } else {
-    alert("Iltimos testni diqqat bilan imkon bo'lsa hech narsaga qaramasdan ishlang!")
     counterLine = setInterval(timer, 480);
     function timer() {
       time += 1; //upgrading time value with 1
@@ -249,31 +246,31 @@ let questions = [
     numb: 1,
     question: "I _____ my homework tomorrow.",
     answer: "will do",
-    options: ["will do", "am going to do", "do", "did"]
+    options: ["am going to do", "will do", "do", "did"]
   },
   {
     numb: 2,
     question: "He _____ to the store every day.",
     answer: "goes",
-    options: ["goes", "will go", "is going", "went"]
+    options: [ "will go", "is going", "goes", "went"]
   },
   {
     numb: 3,
     question: "She _____ a sandwich for lunch.",
     answer: "eats",
-    options: ["eats", "will eat", "is eating", "ate"]
+    options: ["will eat", "eats", "is eating", "ate"]
   },
   {
     numb: 4,
     question: "They _____ to the park every weekend.",
     answer: "go",
-    options: ["go", "will go", "are going", "went"]
+    options: ["went", "will go", "are going", "go"]
   },
   {
     numb: 5,
     question: "I _____ my hair every morning.",
     answer: "brush",
-    options: ["brush", "will brush", "am brushing", "brushed"]
+    options: ["will brush", "am brushing", "brush", "brushed"]
   },
   {
     numb: 6,
@@ -291,13 +288,13 @@ let questions = [
     numb: 8,
     question: "I _____ my room every week.",
     answer: "clean",
-    options: ["clean", "will clean", "am cleaning", "cleaned"]
+    options: ["am cleaning", "will clean", "clean", "cleaned"]
   },
   {
     numb: 9,
     question: "He _____ his car every day.",
     answer: "washes",
-    options: ["washes", "will wash", "is washing", "washed"]
+    options: ["washed", "will wash", "is washing", "washes"]
   },
   {
     numb: 10,
@@ -309,19 +306,19 @@ let questions = [
     numb: 11,
     question: "I _____ to the gym tomorrow.",
     answer: "will go",
-    options: ["will go", "am going", "went", "go"]
+    options: ["went", "am going", "will go", "go"]
   },
   {
     numb: 12,
     question: "He _____ a lot of books next week.",
     answer: "will read",
-    options: ["will read", "is reading", "read", "reads"]
+    options: ["read", "is reading", "will read", "reads"]
   },
   {
     numb: 13,
     question: "She _____ her dog for a walk in an hour.",
     answer: "will take",
-    options: ["will take", "is taking", "took", "takes"]
+    options: ["took", "will take", "is taking", "takes"]
   },
   {
     numb: 14,
@@ -333,37 +330,37 @@ let questions = [
     numb: 15,
     question: "I _____ my teeth before bed.",
     answer: "will brush",
-    options: ["will brush", "brush", "brushing", "brushed"]
+    options: ["will brush", "brushing", "brush", "brushed"]
   },
   {
     numb: 16,
     question: "He _____ his sister next month.",
     answer: "will visit",
-    options: ["will visit", "visits", "visiting", "visited"]
+    options: ["visits", "visiting", "will visit", "visited"]
   },
   {
     numb: 17,
     question: "She _____ a lot of emails later today.",
     answer: "will send",
-    options: ["will send", "sends", "sending", "sent"]
+    options: ["sends", "sent", "sending", "will send"]
   },
   {
     numb: 18,
     question: "They _____ a lot of time on their phones tonight.",
     answer: "will spend",
-    options: ["will spend", "spend", "spending", "spent"]
+    options: ["spend", "will spend", "spending", "spent"]
   },
   {
     numb: 19,
     question: "I _____ to the park in the afternoon.",
     answer: "am going",
-    options: ["am going", "will go", "went", "go"]
+    options: ["go", "will go", "went", "am going"]
   },
   {
     numb: 20,
     question: "He _____ his hair next week.",
     answer: "will cut",
-    options: ["will cut", "cuts", "cutting", "cut"]
+    options: ["cut", "cuts", "cutting", "will cut"]
   },
   {
     numb: 21,
@@ -375,31 +372,31 @@ let questions = [
     numb: 22,
     question: "They _____ their vacation next month.",
     answer: "will take",
-    options: ["will take", "took", "takes", "taking"]
+    options: ["took", "will take", "takes", "taking"]
   },
   {
     numb: 23,
     question: "I _____ my driver's license test next week.",
     answer: "will take",
-    options: ['take', 'took', 'will take', 'taked']
+    options: ['will take', 'took', 'take', 'taked']
   },
   {
     numb: 24,
     question: "He ___ the news every morning.",
     answer: "watches",
-    options: ["watches", "watch", "watching", "watched"]
+    options: ["watched", "watch", "watching", "watches"]
   },
   {
     numb: 25,
     question: "She ___ to music while she works.",
     answer: "listens",
-    options: ["listens", "listen", "listening", "listened"]
+    options: ["listened", "listen", "listening", "listens"]
   },
   {
     numb: 26,
     question: "They ___ dinner at 7 pm every night.",
     answer: "have",
-    options: ["have", "has", "having", "had"]
+    options: ["had", "has", "having", "have"]
   },
   {
     numb: 27,
@@ -417,12 +414,12 @@ let questions = [
     numb: 29,
     question: "She ___ to yoga class every Tuesday.",
     answer: "goes",
-    options: ["goes", "go", "going", "gone"]
+    options: ["gone", "go", "going", "goes"]
   },
   {
     numb: 30,
     question: "They ___ a lot of traveling every year.",
     answer: "do",
-    options: ["do", "does", "did", "done"]
+    options: ["does", "do", "did", "done"]
   }
 ];
